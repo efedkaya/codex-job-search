@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "candidate_label": "Fictional Leeds career changer",
+  "target_functions": ["facilities coordination", "maintenance planning"],
+  "experience_summary": "Eight years coordinating retail shifts and suppliers; moving toward facilities work. No trade license claimed.",
+  "location": {
+    "country": "United Kingdom",
+    "region": "West Yorkshire",
+    "search_area": "Leeds",
+    "commute_origin": "Leeds railway station",
+    "max_distance_km": null,
+    "distance_basis": "public transport time",
+    "max_travel_minutes": 45,
+    "remote_eligible_regions": []
+  },
+  "work_arrangements": {"preferred": ["onsite"], "required": [], "excluded": []},
+  "employment_types": ["part-time"],
+  "authorization_constraints": null,
+  "languages": [],
+  "compensation": {"currency": "GBP", "base_min": null, "period": "hour", "commission_preference": null},
+  "hard_constraints": ["Maximum 24 contracted work hours per week", "No driving requirement; candidate does not drive"],
+  "preferences": ["Onsite work, predictable shifts"],
+  "search_budget": {"human_hours": 10, "weeks": 5, "includes": ["search", "applications"], "separate_learning_hours": null},
+  "unresolved_questions": ["Work authorization conditions", "Language requirements where relevant", "Whether paid training is acceptable"]
+}

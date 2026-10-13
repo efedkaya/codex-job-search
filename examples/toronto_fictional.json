@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "candidate_label": "Fictional Toronto candidate",
+  "target_functions": ["customer success", "commercial research"],
+  "experience_summary": "Two years of customer support and competitor research; fictional demonstration only.",
+  "location": {
+    "country": "Canada",
+    "region": "Ontario",
+    "search_area": "Toronto",
+    "commute_origin": "Toronto City Hall",
+    "max_distance_km": 20,
+    "distance_basis": "road",
+    "max_travel_minutes": null,
+    "remote_eligible_regions": ["Ontario", "Canada"]
+  },
+  "work_arrangements": {"preferred": ["hybrid", "remote"], "required": [], "excluded": []},
+  "authorization_constraints": "Candidate reports no local work restrictions; role-specific eligibility still needs checking.",
+  "languages": [{"language": "English", "level": "professional", "source": "fictional candidate statement"}],
+  "hard_constraints": ["Any regular office attendance must be within the stated road-distance limit"],
+  "preferences": ["Customer-facing work with a research component"],
+  "search_budget": {"human_hours": 24, "weeks": 8, "includes": ["setup", "search", "applications", "networking", "interview preparation"], "separate_learning_hours": null},
+  "unresolved_questions": ["Minimum base salary"]
+}

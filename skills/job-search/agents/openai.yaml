@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Search"
+  short_description: "Find and evaluate jobs using evidence and constraints"
+  default_prompt: "Use $job-search to find and assess opportunities against my experience, location and time budget."

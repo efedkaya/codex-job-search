@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "fictional": false,
+  "candidate_label": null,
+  "updated_at": null,
+  "target_functions": [],
+  "experience_summary": null,
+  "location": {
+    "country": null,
+    "region": null,
+    "search_area": null,
+    "commute_origin": null,
+    "max_distance_km": null,
+    "distance_basis": null,
+    "max_travel_minutes": null,
+    "remote_eligible_regions": []
+  },
+  "work_arrangements": {
+    "preferred": [],
+    "required": [],
+    "excluded": []
+  },
+  "employment_types": [],
+  "start_date": null,
+  "authorization_constraints": null,
+  "languages": [],
+  "compensation": {
+    "currency": null,
+    "base_min": null,
+    "period": null,
+    "commission_preference": null
+  },
+  "hard_constraints": [],
+  "preferences": [],
+  "search_budget": {
+    "human_hours": null,
+    "weeks": null,
+    "includes": [],
+    "separate_learning_hours": null,
+    "agent_minutes_per_run": null
+  },
+  "evidence_file": null,
+  "unresolved_questions": [],
+  "search_settings": {
+    "sources": [],
+    "target_employers": [],
+    "timezone": null,
+    "first_run": "targeted_unless_full_audit_requested",
+    "repeat_run": "since_last_successful_source_scan",
+    "overlap_days": 1,
+    "excluded_employers": []
+  },
+  "onboarding": {
+    "status": "not_started",
+    "last_reviewed_at": null
+  },
+  "profile_revision": null,
+  "evidence_sources": [],
+  "target_roles": [],
+  "target_industries": [],
+  "work_hours_per_week": {
+    "min": null,
+    "max": null
+  }
+}
