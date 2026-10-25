@@ -1,5 +1,18 @@
 # Validation and limits
 
+## 0.6.0 update — 25 October 2026
+
+This release selectively merges a supplied skill revision into the existing installed and sharing editions. New [writing craft](skills/job-search/references/documents.md), [message guidance](skills/job-search/references/messages.md), [mock interviews](skills/job-search/references/mock-interviews.md) and [Ontario posting observations](skills/job-search/references/ontario-postings.md) complement the retained final-document checker, source-import diagnostics, reply interpretation and shared setup.
+
+- **89 offline unit tests passed locally** on macOS/Python 3.12.14. No helper executable code changed. Public distribution/privacy checks pass for **54 allowlisted files**, and **167 internal file/heading links** were checked, together with JSON and Python syntax. The public and installed skill scaffold validators passed.
+- Five independent fictional requests were completed using only the staged skill and supplied records: unknown language versus an explicit driving exclusion, qualitative interview evidence omitted from a résumé, a focused edit and broken-scheduler draft, a requested counteroffer, and Ontario rounds spaced apart. Actual responses were inspected separately from the unit tests; these cases bring the behavior fixture to 21 cases, not 21 automatically executed tests.
+- The responses preserved unknowns, personal contribution, the private pay minimum and the candidate's final action boundary. Date arithmetic was checked for the notification example. The draft-email case included a nonblocking recipient-address question imposed by the host's writing format; no address was invented and the full requested draft was delivered. The local skill did not impose that question.
+- Four new guides and the shared behavioral changes were applied to both editions while preserving their existing setup differences. Existing executable helpers, final-file checks, confirmed-event reply rules and pinned notices were retained. The ZIP and an isolated install were compared with the explicit public manifest before publication.
+
+The Ontario note uses dated official guidance with coverage and interview definitions, pay exceptions and separated-round timing. Current facts were checked against accessible indexed official sources; direct page retrieval was blocked in this environment. The independent exercise did not browse or establish an actual employer's compliance.
+
+Hosted workflow results belong to the published commit's Actions run. These local checks do not establish discovery in every host, complete live board coverage, general ATS acceptance, real application/delivery outcomes or hiring improvement. No real accounts, candidate records or applications were used in the fictional tests.
+
 ## 0.5.0 update — 25 October 2026
 
 This release merges the ten-repository workflow review into the shared edition while retaining first-use setup, the 241-company priority seed, private context/answer reuse and candidate-controlled final submission. It adds evidence selection and scoped writing, concrete final-document checks, source-import diagnostics, focused interview drills and next-action/reply interpretation. Source revisions and retained notices are in [adaptation provenance](skills/job-search/references/third-party-notices.md).

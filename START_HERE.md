@@ -77,7 +77,7 @@ Use $job-search to tailor my résumé for this posting. Select the strongest sup
 ```
 
 ```text
-Use $job-search to help me practice for this interview using the posting and the résumé I actually sent. Ask one question, then give focused feedback based on my answer and choose one useful drill. Keep examples and achievements factual.
+Use $job-search to help me practice for this interview using the posting and the résumé I actually sent. Use coaching mode: ask one question, then give focused feedback based on my actual answer and choose one useful drill. Qualitative outcomes are fine; keep my contribution and any assistance clear. Keep examples and achievements factual.
 ```
 
 ## 5. Share feedback

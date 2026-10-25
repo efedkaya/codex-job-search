@@ -4,9 +4,17 @@ Find relevant opportunities, explain the fit, and keep an honest application his
 
 A reusable skill for OpenAI Codex. It adapts to the candidate's country, career stage, work preferences and available time. Personal information lives in a separate private workspace. Each person starts with their own location, pay, experience and skills. A configurable 241-company list gives discovery a large-employer priority without overriding those facts.
 
-**Status: preview release, 0.5.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
+**Status: preview release, 0.6.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
 
 [Download the preview ZIP](https://github.com/efedkaya/codex-job-search/releases/latest) · [Get started](START_HERE.md) · [Send feedback or report a problem](https://github.com/efedkaya/codex-job-search/issues/new/choose)
+
+## New in 0.6.0
+
+- [Writing craft](skills/job-search/references/documents.md) for concrete contributions, proportional edits and accurate form answers without metric or keyword quotas.
+- [Message guidance](skills/job-search/references/messages.md) for referrals, follow-ups, scheduling and broken application processes, preserving the candidate's sending boundary.
+- [Mock interviews](skills/job-search/references/mock-interviews.md) with realistic/coaching modes, specific probes and feedback grounded in the actual answer. Qualitative results and truthful experience omitted from the résumé remain usable.
+- Clearer unknown-versus-mismatch screening, round preparation, weekly reviews and compensation questions. Optional [Ontario posting notes](skills/job-search/references/ontario-postings.md) include coverage limits and interview-notification details.
+- Existing document checks, import diagnostics, reply interpretation, friend setup and source notices remain included.
 
 ## New in 0.5.0
 

@@ -14,6 +14,16 @@ Build a compact table only for material terms. Preserve the original document/da
 
 Convert units only with explicit assumptions, such as paid hours/weeks; do not compare hourly gross pay with annual take-home pay. Keep target variable compensation separate from guaranteed earnings. Missing terms stay unknown rather than zero or “standard.” A missing referenced plan or policy limits the review; identify it instead of inventing its content. Recheck current market data, exchange rates or other changeable comparisons when needed, with direct sources and dates.
 
+## Prepare a choice and a grounded ask
+
+Label compensation components as guaranteed, conditional, estimated or unknown. Show year-one cash and ongoing guaranteed pay separately when that distinction matters; keep equity and target bonuses visibly conditional. Every material unknown becomes a specific employer question rather than a typical value filled in by the assistant.
+
+When negotiation is requested, use the candidate's actual fallback, private walk-away constraints and preferred target if supplied. Do not require all three for a small requested counter draft. Keep the private minimum out of employer-facing text. A verified competing offer, real forfeited benefit or relevant dated benchmark can support a request; neither a market figure nor another interview process is a competing offer.
+
+Offer a single supported ask or a few alternative packages according to the request, explaining tradeoffs without a fixed uplift or mandatory number of demands. A requested draft does not need a separate plan-approval ceremony. Do not recommend acceptance solely because a pay target is reached; compare unresolved conditions and the candidate's full priorities, leaving the decision and actual acceptance to them.
+
+For early salary questions, inspect what was already communicated, the actual currency/period and the field type. Ask for a missing candidate choice when needed. Research can inform a target, but do not choose an employer-facing expectation automatically, anchor at a universal part of the band or enter a range where a single number is required. Keep a discussed figure distinct from a contractual guarantee.
+
 ## Read terms against what was promised
 
 For a document review, cite the actual clause/section and explain its plain-language effect, including omissions that matter to a recorded promise. Check relevant terms such as variable-pay discretion, outside-work/IP scope, restrictions after departure, termination, contingencies, dispute terms and repayment. Do not label a clause fair, lawful, enforceable or normal merely because it is familiar.

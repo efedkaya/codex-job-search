@@ -30,6 +30,19 @@ Check the set as a whole: several questions may compete for the same example whi
 
 Retain which examples were discussed in earlier rounds when known. Reuse can be appropriate for a deeper question or a different audience; do not automatically downgrade a story after an arbitrary number of uses. Prefer genuine range without inventing new stories or assuming interviewers have shared notes.
 
+## Read the round
+
+| Known round | Useful preparation |
+|---|---|
+| Recruiter screen | Concise background, role motivation and actual logistics/pay already discussed |
+| Hiring manager | Relevant work walkthroughs, decisions and a proposed approach to the team's stated needs |
+| Behavioral discussion | Supported examples with personal contribution, outcome/reflection and likely follow-ups |
+| Practical, case or panel | The published task/format, reasoning and tradeoffs, and questions for the actual audience |
+
+Use employer-confirmed details first; a round label or public biography does not establish a private rubric. Rank a few likely questions by stated requirements, explicit prior feedback and claims in the sent materials, keeping predictions labelled as such. A newly supplied true experience omitted from the résumé can be discussed after ordinary evidence review. Check consistency with submitted claims; do not restrict the candidate to facts printed on the résumé.
+
+For story discovery, a useful prompt asks about a real decision, disagreement, failure, improvement or recurring responsibility. Mine the personal action and its evidence rather than insisting on a numeric result, fixed competency quota or a larger story than the candidate actually has. An unconfirmed figure may be revisited when evidence becomes available.
+
 ## A plan that fits the actual round
 
 Use the known round format, interview date/time/time zone and candidate's available active preparation time. Ask only for missing details that materially change the plan; useful generic preparation can proceed without a confirmed date. Calendar time until an interview is not all available study time. Respect work, rest and other commitments, and prioritize interview preparation within the existing search budget.
@@ -43,6 +56,8 @@ Label question sources: employer-provided format, dated candidate/interview repo
 When helpful, finish with a short review card: the main fit message, a few evidence-backed examples, questions to ask, unresolved logistics and compensation already discussed. Preserve the source/date and currency/base-versus-total basis of any prior stated expectation; a market estimate is not a commitment made by the candidate.
 
 Keep a round-specific packet when persistence helps: confirmed round/date/timezone and format source, the posting and exact materials sent, previous questions/feedback, selected examples and open logistics. A later posting revision can inform current research but must not silently replace what the interviewer received. Check the meeting's time zone and any confirmed exercise or accessibility requirements without inventing calendar entries or contacting anyone.
+
+For an in-character round or coaching session, use [mock interviews](mock-interviews.md).
 
 ## One-question practice
 
@@ -80,6 +95,6 @@ For a transcript, use only supported speaker labels and timestamps. Mark uncerta
 
 Optional practice/question notes can retain the role/round, source, question, answer summary, demonstrated difficulty and next exercise. New factual candidate claims still need the normal evidence review before reuse. Add genuine new experiences to the story bank; do not infer competence from fluent phrasing alone.
 
-When the interview contradicts an earlier employer/role fact, update the current research/prep summary with the dated new source and preserve the previous observation. Keep this separate from candidate-claim corrections and exact submitted versions. Record only supported tracker events using [tracking](tracking.md); a practice session is not an interview_completed event. A debrief or due follow-up grants no permission to contact anyone.
+When the interview contradicts an earlier employer/role fact, update the current research/prep summary with the dated new source and preserve the previous observation. Keep this separate from candidate-claim corrections and exact submitted versions. Record only supported tracker events using [tracking](tracking.md); a practice session is not an interview_completed event. Capture any actual promised next step/date and use [messages](messages.md) for a grounded thank-you or status draft. A debrief or due follow-up grants no permission to contact anyone.
 
 If practice ratings and actual outcomes differ, inspect the recorded examples and explicit employer feedback before choosing the next exercise. Small or selective samples do not prove a rating predicts hiring or reveal the reason for rejection. Do not automatically change the candidate's goals, profile, rubric or search exclusions from that correlation.

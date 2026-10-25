@@ -16,6 +16,8 @@ Use this workflow when the user asks to apply to identified roles. Read [applica
 3. Reuse the current candidate profile, evidence and [material versions](applications.md#reuse-and-version-materials). Tailor only where useful, verify changed facts and render exported files as required by their format. Do not ask for the same known facts again or invent experience to pass screening.
 4. Create or resume a distinct private attempt. Keep the posting/form snapshot, destination, authorization source, question wording, answers and evidence, document paths/versions, unresolved issues and observed progress together. Keep private candidate data outside the installed skill and public repository.
 
+Inspect the accessible form for consequential screening questions before substantial drafting. Show a likely conflict with the exact question and supported candidate facts. Some questions appear only later: record that limit, inspect newly revealed steps and do not invent required answers merely to reach the next page. Recheck the employer/ATS destination after an Apply redirect. Reuse current authorization and established exclusions; clarify a genuine candidate decision without adding a universal approval gate.
+
 ## Fill accurately and continue through the real form
 
 - Inspect the actual required and optional fields, choices, help text and limits on each step. Opening Apply or uploading a resume is an intermediate state. Recheck parsed names, dates, education, employers and skills after resume autofill.

@@ -44,7 +44,9 @@
     "approved_layout_example": null,
     "resume_page_limit": null,
     "cover_letter_page_limit": null,
-    "preferred_formats": []
+    "preferred_formats": [],
+    "tailoring_preference": null,
+    "writing_style_notes": null
   },
   "search_budget": {
     "human_hours": null,

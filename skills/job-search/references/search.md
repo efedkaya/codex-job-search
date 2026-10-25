@@ -41,6 +41,10 @@ When repeated appearances, a generic redirect, inconsistent duties or recruiter 
 
 Screen explicit hard conditions against known candidate constraints first: authorization, licensing, location/attendance, hours and other decisive requirements. A known conflict can stop detailed review unless the user asks otherwise; an unknown condition remains investigate. Preferences and unmentioned capabilities are not rejections.
 
+For a consequential gate, show the actual posting requirement and the candidate fact or explicit constraint it conflicts with. Apply a previously stated exclusion without repeatedly asking for permission to honor it. A missing language, licence, authorization fact or tool in a résumé is unknown, not proof of inability. A confirmed absence can establish a mismatch; quoting an unlisted language cannot. Clarify a material unknown rather than silently excluding the role.
+
+For Ontario-specific posting observations, use [Ontario guidance](ontario-postings.md) only after considering coverage and exceptions. Regional rules do not become global filters.
+
 Then map duties and requirements to claim IDs or source excerpts. Keep **skills fit**, **eligibility** and **readiness** separate. Strong transferable work does not prove eligibility, and an eligible role may still need preparation.
 
 - **Supported:** direct or transferable evidence sufficient for the task.
@@ -53,6 +57,8 @@ Judge actual tasks and essentials rather than titles alone. A two-year preferenc
 ### Detailed requirement review
 
 For a detailed assessment, use one requirement-to-evidence table; a shortlist can use a compact summary. First establish each significant requirement's importance from the posting, then map candidate evidence. Do not promote a requirement because the candidate meets it or discount it because they do not. Keep posting importance separate from confidence in the candidate's evidence.
+
+Establish importance from the posting before mapping candidate evidence. Label its basis as explicit wording, posting structure or inference. An inferred emphasis cannot create a new eligibility condition. Show consequential unmet or unknown requirements clearly without hiding them inside a coverage count.
 
 | Requirement | Posting importance and basis | Candidate fit | Evidence or unresolved gap |
 |---|---|---|---|

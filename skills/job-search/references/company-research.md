@@ -24,6 +24,12 @@ For recruiter-originated opportunities, verify the person's current professional
 
 Turn role concerns into specific questions: which entity employs the person, whether a fixed-term role is employee or contractor work, how variable pay is earned, why the role is open, who supports the hire, or what success looks like in the first months. A label such as “contract” does not establish legal classification. Use [offers](offers.md) for written terms and jurisdiction-dependent questions.
 
+## A compact research brief
+
+When useful for an application or interview, assemble a brief about the actual team/business unit: what it does, a few dated source-backed priorities, role-relevant recent developments, candidate evidence and questions to ask. Prefer employer material and filings for their own claims; label news, reviews and inference distinctly. A saved brief retains its checked date and sources. Recheck changeable claims before using them in finished materials rather than treating cached notes as current facts.
+
+Contact before applying can be useful when a named verified contact invites questions or an unresolved material issue deserves one. Draft a substantive question about duties, scope or process; do not make a call mandatory or contact someone merely to create name recognition. Use [messages](messages.md) for the requested draft and preserve the normal sending boundary.
+
 ## Contacts and outreach drafts
 
 When contact research or outreach preparation is requested, first use relevant contacts or prior interactions already supplied in the designated workspace. A saved name or shared employer does not prove a relationship, referral or willingness to help. Reverify a stale professional affiliation before relying on it.

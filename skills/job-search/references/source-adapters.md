@@ -18,6 +18,10 @@ Keep a compact normalized observation with raw values/source pointers:
 
 A parsed or annualized salary must not overwrite the original. Recompute only when the actual paid hours/period are known and keep assumptions visible; a library's 2,080-hours default does not establish guaranteed earnings. Missing/false/default booleans and absent dates need source interpretation, not automatic eligibility decisions.
 
+## Structured employer sources
+
+When available through permitted tools, an employer-linked public board feed or a posting's structured metadata can help recover dates, pay and locations. Verify the hiring entity and actual board relationship; use documented public interfaces without guessing hidden routes. Keep feed pagination, retrieval time and missing fields visible. Compare metadata with the visible description and preserve conflicts, especially remote labels versus required attendance. A reachable board with no matching result does not establish closure unless the relevant inventory was actually checked; retain an unresolved listing when evidence is incomplete.
+
 ## Treat transport success separately from coverage
 
 Some tools return useful rows from one board while another failed. Check per-source diagnostics, not just an HTTP/CLI success or a nonempty combined table. A source-specific error, ignored filter, truncated description, exhausted quota, authentication block or result cap limits that source. An empty table with an error is not zero available jobs.

@@ -531,6 +531,43 @@
       "date_context": "2026-10-25, America/Toronto",
       "request_and_supplied_evidence": "D — campaign state\n\nUser request: “Update my next-action list from these notes, but I handle sending and submitting myself.”\n\nNotes:\n- Example Research attempt R1: resume.pdf prepared October 24; user said October 25, “I'll send it tomorrow.” No sending confirmation.\n- Example Data attempt D1: user reported “I sent the application October 22.” Automated receipt dated October 22. Recruiter message October 25: “Please send some times you are available next week.” No confirmed meeting date/time.\n- Example Systems attempt S1: confirmed interview October 27 at 10:00 America/Toronto, recruiter screening, 30 minutes. Prior posted job description and résumé v2 were sent. Current résumé v3 was edited after submission. No deadline for other jobs is known.\n\nReturn a compact next-action list from the evidence supplied. No calendar entries, mailbox monitoring, sends or submissions are requested.",
       "limits": "Fictional offline case; no accounts, browsing, calendar, sending or submission. Cases A/B share only their stated candidate evidence; C/D are independent."
+    },
+    {
+      "id": "language-and-explicit-constraint",
+      "request": "Assess these two roles from my supplied notes and tell me the useful next step. I do not drive and I already asked you to skip jobs that require driving. No need to ask me about that again. I have one year in customer support and use English at work. My profile has no other language information.",
+      "postings": [
+        {
+          "id": "L1",
+          "text": "Example Helpdesk, Support Coordinator. Remote within Canada. English and French required. Training available for the support software. No salary or current availability verification supplied."
+        },
+        {
+          "id": "L2",
+          "text": "Example Visits, Customer Coordinator. Must hold a valid driving licence and drive between customer sites each day. Supplied snapshot only."
+        }
+      ]
+    },
+    {
+      "id": "qualitative-mock-and-omitted-story",
+      "request": "Use coaching mode. Here is my typed answer to a question about fixing a process; give feedback and one follow-up. This example is not on my resume because of space, and I used it in a previous round. This interviewer asked for more detail. I have no measured numbers.",
+      "answer": "Support requests kept landing with the wrong team. I compared recent tickets with the ownership guide and showed three confusing examples to my supervisor. She approved changing the category descriptions; I wrote the new help text and tested it with a colleague. Later the team used the revised guide during handovers. I don't have data showing whether the number of wrong assignments fell. I would ask the team to track that next time.",
+      "additional_context": "All stated work is true candidate-reported evidence for this exercise. No audio, timing data or independent performance measurement was supplied. The supervisor approved the change; the candidate did not own the whole support redesign. No numeric rubric requested."
+    },
+    {
+      "id": "focused-writing-and-process-message",
+      "request": "Improve only this sentence in my letter: 'I helped make the support guide easier to use.' Then draft a short email to the recruiter about the scheduler problem. I handle sending. Keep the rest of the letter alone; just give me the text, no files.",
+      "evidence": "Candidate wrote clearer category descriptions after a supervisor approved the change, then tested the wording with a colleague. The revised guide was used in team handovers. No measured efficiency result.",
+      "process_notes": "Example Support requisition ES-17. Recruiter Sam supplied a scheduling link on October 24. On October 25 at 09:15 America/Toronto, opening it displayed 'This scheduling link has expired'. The candidate retried once and saw the same error. No interview time was confirmed and no direct email address was supplied. Request a working scheduling link."
+    },
+    {
+      "id": "requested-counter-draft",
+      "request": "Draft my reply asking for C$75,000 base. No need to approve a separate strategy first. Keep my private C$68,000 minimum out of the email. I'm comparing the rest of the terms myself and I will decide whether to accept and send.",
+      "facts": "Example Operations offered C$70,000 annual base plus a discretionary target bonus of 10%, in writing. The candidate has a separate written C$72,000 base offer, which they are comfortable mentioning accurately. They prefer Example Operations because of its role scope. No current salary, salary benchmark, final acceptance decision or competing deadline was supplied."
+    },
+    {
+      "id": "ontario-separated-rounds",
+      "request": "From these fictional records, explain what the Ontario notification note means and draft a neutral status question. Don't accuse anyone or send it. Use the local guidance; say what you have not checked live.",
+      "date_context": "October 25, 2026, America/Toronto",
+      "facts": "For this exercise, assume an ESA-covered provincially regulated Ontario employer, 60 employees when its external public posting was published. July 20 was an initial screening call to decide whom to interview. August 1 and September 30 were substantive interviews assessing suitability; another interview occurred October 20. No notice about whether a hiring decision had been made was supplied. No current portal check was done."
     }
   ]
 }

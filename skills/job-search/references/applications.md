@@ -4,6 +4,8 @@ Use the shared evidence, privacy and authorization rules in SKILL.md. Recheck th
 
 For requests to apply, fill forms, upload documents or submit, use [selected-job applications](submit-applications.md). A request for documents alone remains a preparation task.
 
+For content development and proportionate editing, use [writing craft](documents.md). The factual review and version rules below remain the source of truth; [document quality](document-quality.md) owns final-file checks.
+
 ## Tailoring and factual review
 
 Start with the candidate's approved résumé and evidence; if absent, draft from available facts and surface missing material. Respect the requested language, local conventions and employer format without imposing a universal page count, tool brand, degree label or résumé style.
@@ -67,7 +69,7 @@ Use [interviews](interviews.md) for role-specific planning, evidence-linked stor
 
 ## Follow-ups and learning from outcomes
 
-Draft in the candidate's voice using the actual application's facts. Adapt timing to employer instructions, event date and candidate preference; no mandatory universal cadence. Respect no-contact instructions and avoid repeated messages after a clear refusal. A follow-up becoming due grants no permission to send; distinguish planned, approved, sent and replied events using tracking.
+Draft in the candidate's voice using the actual application's facts and the relevant [message pattern](messages.md). Adapt timing to employer instructions, event date and candidate preference; no mandatory universal cadence. Respect no-contact instructions and avoid repeated messages after a clear refusal. A follow-up becoming due grants no permission to send; distinguish planned, approved, sent and replied events using tracking.
 
 ### Review outcomes without inventing causes
 

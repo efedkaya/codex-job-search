@@ -31,10 +31,13 @@ Load only the relevant references; helper paths are relative to this skill.
 | Budgets, delegation or shared vacancies | [Efficiency](references/efficiency.md): choose Update, Targeted or Full audit and separate enumeration from assessment |
 | Repeat searches or checkpoints | [Search state](references/search-state.md) for helper inputs and resume semantics, alongside browser search |
 | Employer research, role concerns or professional outreach drafts | [Company research](references/company-research.md); use only the parts relevant to the request |
-| Résumé, cover letter, form answers or follow-up | [Applications](references/applications.md); [document quality](references/document-quality.md) for final artifact checks; the [answer bank](references/answer-bank.md) is optional for repeated questions |
+| Résumé, cover letter or form answers | [Applications](references/applications.md) for evidence and versions, [writing craft](references/documents.md) for content, and [document quality](references/document-quality.md) for final artifact checks; the [answer bank](references/answer-bank.md) is optional for repeated questions |
+| Follow-ups, thank-yous, referrals or process messages | [Messages](references/messages.md); use company research to verify recipients |
 | Apply to selected jobs, fill application forms or submit prepared applications | [Selected-job applications](references/submit-applications.md), alongside [applications](references/applications.md) for documents and factual review |
 | Interview plan, practice, story bank or debrief | [Interviews](references/interviews.md), using the specific posting and application materials |
+| Mock interview or simulated practice round | [Mock interviews](references/mock-interviews.md), using the actual round and evidence |
 | Offer comparison or negotiation preparation | [Offers](references/offers.md); distinguish advertised, discussed and written terms |
+| Weekly campaign review | [Session workflow](references/workflow.md#weekly-review), preserving the current action queue |
 | Application records, outcome review or candidate time budgets | [Tracking](references/tracking.md); [applications](references/applications.md) covers learning from outcomes |
 
 Searching does not require application documents; preparing them does not mean submitting them. If files or tools are unavailable, work with supplied text/in chat, label unverified leads and disclose any persistence limit.

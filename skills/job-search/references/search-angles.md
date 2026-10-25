@@ -17,6 +17,10 @@ Recover the candidate's profile revision, supported tasks, independent versus as
 
 Do not infer fit from a reassuring title, department or automated match score. A technical-marketing job may require engineering and GPU programming; an operations analyst may require advanced spreadsheets and systems administration. Apply explicit experience minima before deep review, then assess actual essential tasks. AI-assisted output does not establish independent tool competence. Ask only decision-changing questions using [profile](profile.md#broaden-a-returning-search).
 
+## Adjacent titles
+
+When broader search terms would help, propose a small useful set of lateral labels, realistic stretches or adjacent functions, each tied to supported candidate work and a material gap or unknown. A title suggestion is a search hypothesis, not evidence of current vacancies or a title the candidate held. Verify current market claims when making them. Reuse accepted directions and explicit exclusions; ask only when changing a consequential search preference.
+
 ## Turn supplied company lists into a private target register
 
 When the user asks to inspect open rankings/tabs first, do that before using them to seed the search. Record the actual source, date, category, year and portion read; preserve inaccessible sources as limitations. Read the selected size/category rather than silently using a small-company tab for a large-employer request. An employer award is a discovery aid, not evidence that a vacancy is open, a particular team is suitable, or hiring is likely.

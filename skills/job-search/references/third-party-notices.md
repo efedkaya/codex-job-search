@@ -35,6 +35,12 @@ Excluded designs include manufactured or suggested achievement numbers, mandator
 
 Upstream MIT license notice follows for the adapted workflow material. The helper implementation and its tests were written independently for this skill.
 
+## Supplied revision review, October 25, 2026
+
+A user-supplied skill revision (`job-searchh.zip`, SHA-256 `73e1a66d4a2ebea975ca580999b0c28fd2485c2d3b09c07e395e0d1159a2b544`) informed additional organization for writing craft, process-message patterns, simulated interviews, round preparation, campaign reviews and offer questions. Those ideas are expressed in independently written guidance here. The archive's claimed upstream review is not a substitute for the pinned review above; existing source and copyright notices remain retained.
+
+The merge preserves the final-file checker, source-adapter diagnostics and confirmed-event reply rules. It excludes language-absence rejection, metric/verb/story quotas, a requirement to discuss only printed résumé facts, mandatory drafting approval loops and unverified provenance replacements. Ontario observations are separately dated and linked to official sources. No new upstream executable code or service is incorporated.
+
 ## MIT License
 
 Copyright (c) 2026 Santiago Fernández de Valderrama

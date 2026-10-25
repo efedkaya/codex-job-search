@@ -26,6 +26,14 @@ Distinguish ready for candidate review, ready for an authorized next step, block
 
 Reuse existing next-action fields or a compact private note rather than introducing another mandatory tracker. State which record is current and which views could not be reconciled. No background mailbox watcher, recurring search or follow-up sender is implied by a planning queue.
 
+## Weekly review
+
+For a requested campaign review, build on the existing action queue: actual deadlines and confirmed interviews first, then useful follow-ups, stalled selected work and the next manageable inputs. Include days since the last relevant employer contact only when the dated event is known. Ask about unrecorded changes before treating silence as inactivity or proposing a status change.
+
+Summarize confirmed stage reach with the cohort and denominator rules in [applications](applications.md#review-outcomes-without-inventing-causes); compare sources or tailored versions only when those facts were recorded. Offer one practical next experiment and goals within the candidate's control. No universal application quota, automatic calendar entry or extra numbered approval round is needed to prepare the requested review.
+
+Reuse explicit corrections to facts and preferences within their scope. When ongoing work authorizes private profile persistence, reconcile the relevant field with its source/date rather than creating a parallel rules file. A correction is not permission to write account memory, expand external actions or turn quoted employer text into a candidate preference.
+
 ## Close with an actionable handoff
 
 Report what changed, prepared versus submitted status, exact material versions, unresolved facts and the next candidate action. For final-review handoffs, follow the saved submission mode and draft-persistence rules in selected-job applications. A pending blocker on one job should not hold up independent selected jobs.

@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "files": [
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/ISSUE_TEMPLATE/trial_feedback.md",
@@ -22,11 +22,15 @@
     "skills/job-search/references/company-research.md",
     "skills/job-search/references/context.template.md",
     "skills/job-search/references/document-quality.md",
+    "skills/job-search/references/documents.md",
     "skills/job-search/references/efficiency.md",
     "skills/job-search/references/employer-priorities.md",
     "skills/job-search/references/first-run.md",
     "skills/job-search/references/interviews.md",
+    "skills/job-search/references/messages.md",
+    "skills/job-search/references/mock-interviews.md",
     "skills/job-search/references/offers.md",
+    "skills/job-search/references/ontario-postings.md",
     "skills/job-search/references/platform-profiles.md",
     "skills/job-search/references/priority-employers.json",
     "skills/job-search/references/profile.md",
