@@ -26,12 +26,12 @@ Load only the relevant references; helper paths are relative to this skill.
 | First ongoing search or explicit setup | [Personal setup](references/first-run.md), then [profile](references/profile.md): background, useful limits and private context; no document is mandatory |
 | Returning candidate or capability uncertainty | [Profile](references/profile.md): reuse their designated private profile and ask only about material unknowns or changes |
 | Audit or update LinkedIn, Indeed, Glassdoor or Job Bank profiles | [Platform profiles](references/platform-profiles.md): compare live fields with candidate evidence and verify authorized saves |
-| Discovery or shortlist | [Search](references/search.md) for strategy, verification and decisions; [browser search](references/browser-search.md) for live traversal and source fallback |
+| Discovery or shortlist | [Search](references/search.md) for strategy, verification and decisions; [browser search](references/browser-search.md) for live traversal and source fallback; [source adapters](references/source-adapters.md) when using an available job-data connector or supplied export |
 | Fresh search angles, named companies, employer rankings or a large company list | [Search angles and employer targets](references/search-angles.md); use [profile](references/profile.md#broaden-a-returning-search) for selective questions |
 | Budgets, delegation or shared vacancies | [Efficiency](references/efficiency.md): choose Update, Targeted or Full audit and separate enumeration from assessment |
 | Repeat searches or checkpoints | [Search state](references/search-state.md) for helper inputs and resume semantics, alongside browser search |
 | Employer research, role concerns or professional outreach drafts | [Company research](references/company-research.md); use only the parts relevant to the request |
-| Résumé, cover letter, form answers or follow-up | [Applications](references/applications.md); its [answer bank](references/answer-bank.md) is optional for repeated questions |
+| Résumé, cover letter, form answers or follow-up | [Applications](references/applications.md); [document quality](references/document-quality.md) for final artifact checks; the [answer bank](references/answer-bank.md) is optional for repeated questions |
 | Apply to selected jobs, fill application forms or submit prepared applications | [Selected-job applications](references/submit-applications.md), alongside [applications](references/applications.md) for documents and factual review |
 | Interview plan, practice, story bank or debrief | [Interviews](references/interviews.md), using the specific posting and application materials |
 | Offer comparison or negotiation preparation | [Offers](references/offers.md); distinguish advertised, discussed and written terms |

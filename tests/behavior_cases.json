@@ -507,6 +507,30 @@
         "Prepare a scoped reusable answer and portable context update",
         "Explain the shared employer priority and actual persistence limit"
       ]
+    },
+    {
+      "id": "evidence-limited-material-writing",
+      "date_context": "2026-10-25, America/Toronto",
+      "request_and_supplied_evidence": "A — application writing\n\nUser request: “Tailor my summary and write a short cover letter for this job, about 160 words. Keep my voice simple. Just prepare it in chat.”\n\nCandidate evidence: Casey Rivera, casey@example.test. Worked as Market Research Assistant at Example Research from February through June 2026. Built a spreadsheet of 80 prospects with columns chosen by a supervisor, using AI help for initial company summaries. Personally checked 20 company URLs and corrected five inaccurate company descriptions. Used spreadsheet sorting/filtering unaided. Has not used SQL and cannot write spreadsheet formulas without help. The team later reported 12 sales meetings; no evidence links Casey's work to any of those meetings. No stated independent client outreach experience. Finished a business diploma in June 2026. No preference for a different held title.\n\nSupplied posting, current availability not independently checked: Senior Revenue Operations Analyst, Example Systems. Required work includes SQL reporting and designing Excel models; three years of relevant experience is stated as required. Preferred: prospect research and CRM data quality. Company website and hiring-manager identity are not provided.",
+      "limits": "Fictional offline case; no accounts, browsing, calendar, sending or submission. Cases A/B share only their stated candidate evidence; C/D are independent."
+    },
+    {
+      "id": "focused-interview-drill",
+      "date_context": "2026-10-25, America/Toronto",
+      "request_and_supplied_evidence": "B — interview coaching\n\nUser request: “Here's my typed answer to ‘Tell me about a data-quality problem you fixed.’ Give me useful feedback and start one practice drill.”\n\nAnswer: “Our team created 12 meetings. I helped with the spreadsheet and used AI to summarize companies. When I checked 20 URLs I found five summaries had the wrong business, so I replaced the descriptions using the actual company websites. My supervisor selected the columns.”\n\nEvidence is the same as Case A. This example was used in the first interview round. The next interviewer asked Casey to discuss it more deeply. No audio, transcript timestamps or employer feedback were supplied.",
+      "limits": "Fictional offline case; no accounts, browsing, calendar, sending or submission. Cases A/B share only their stated candidate evidence; C/D are independent."
+    },
+    {
+      "id": "partial-import-diagnostics",
+      "date_context": "2026-10-25, America/Toronto",
+      "request_and_supplied_evidence": "C — supplied discovery export\n\nUser request: “Tell me which of these imported leads is worth investigating. I'm in Toronto and can take Canada-remote work. I need at least C$25/hour guaranteed base. Don't browse.”\n\nExport metadata: requested Indeed and LinkedIn, twenty results each. Actual library country default was USA; `is_remote: false` was a default input, not an observed employer statement. `DataFrame.attrs.errors`: LinkedIn HTTP 429. `warnings`: Indeed results capped at twenty. Description snippets may be truncated. Export has not been verified against employer pages.\n\nRows:\n1. Indeed ID A1, Example Data, Research Coordinator, location “Remote”, salary 52000 USD yearly estimated, description “Research and CRM data quality”; claimed direct URL `https://jobs.example.test/A1`.\n2. Indeed ID A2, Example Research, Research Assistant, Toronto, C$26/hour employer-stated base, description “Sort/filter spreadsheets and research company sites”; claimed direct URL `https://jobs.example.test/A2`.\n3. Indeed ID A3, Example Research, Research Assistant, Toronto, C$26/hour employer-stated base, separate requisition A3, description same as A2.",
+      "limits": "Fictional offline case; no accounts, browsing, calendar, sending or submission. Cases A/B share only their stated candidate evidence; C/D are independent."
+    },
+    {
+      "id": "campaign-next-actions",
+      "date_context": "2026-10-25, America/Toronto",
+      "request_and_supplied_evidence": "D — campaign state\n\nUser request: “Update my next-action list from these notes, but I handle sending and submitting myself.”\n\nNotes:\n- Example Research attempt R1: resume.pdf prepared October 24; user said October 25, “I'll send it tomorrow.” No sending confirmation.\n- Example Data attempt D1: user reported “I sent the application October 22.” Automated receipt dated October 22. Recruiter message October 25: “Please send some times you are available next week.” No confirmed meeting date/time.\n- Example Systems attempt S1: confirmed interview October 27 at 10:00 America/Toronto, recruiter screening, 30 minutes. Prior posted job description and résumé v2 were sent. Current résumé v3 was edited after submission. No deadline for other jobs is known.\n\nReturn a compact next-action list from the evidence supplied. No calendar entries, mailbox monitoring, sends or submissions are requested.",
+      "limits": "Fictional offline case; no accounts, browsing, calendar, sending or submission. Cases A/B share only their stated candidate evidence; C/D are independent."
     }
   ]
 }

@@ -14,6 +14,8 @@ Translate supported work into a few role families with close title variants, not
 
 Start with supplied leads, official employer sites, employer-linked recruiting platforms, public web search and relevant regional/specialist boards. Use LinkedIn, Indeed and Glassdoor when accessible; include Canada's Job Bank for Canadian searches unless the user limits the sources. National boards are country-specific; similarly named services are not interchangeable. No scraper or board account is bundled. User-maintained alerts can supply leads without implying universal board access. Browser search owns fallback and official link-chain verification.
 
+When an existing authorized connector or supplied job-data export is useful, follow [source adapters](source-adapters.md) to preserve normalized facts and per-source diagnostics. A combined result count or a tool's successful return does not prove every requested source/filter was searched.
+
 ## Verify each opportunity
 
 Prefer the official employer posting or a recruiting platform linked from its website; compare employer, role and requisition across sources and redirects. A plausible domain is insufficient. Check the [shared ledger](efficiency.md) before reopening a role and deduplicate using verified requisition IDs, official URLs and explicit source aliases. Title/company similarity alone is not identity. Keep separate requisitions, worksites and application attempts distinct; flag probable duplicates for reconciliation.
@@ -57,6 +59,8 @@ For a detailed assessment, use one requirement-to-evidence table; a shortlist ca
 | Actual duty or condition | Essential / core / preferred, with stated wording, posting structure or labelled inference | Supported / partial / unknown / mismatch | Claim ID/source excerpt, relevant capability level and limits |
 
 Keep every explicit hard condition visible; combine related lower-priority duties when that improves readability. A requirement's prominence or a market assumption does not create a hard exclusion. Record a known conflict only against an actual hard requirement or candidate constraint; missing résumé evidence remains unknown. For consequential partial/unknown requirements, explain what the candidate might be asked to demonstrate and the smallest useful response: clarify a fact, use adjacent evidence, practise a task, or acknowledge the gap. A proposed project or lesson is preparation, not completed experience.
+
+Keep the quality of the assessment's evidence separate from the fit decision: which facts were observed directly, what relies on a supplied statement or adjacent evidence, and which consequential facts remain unknown? A plausible recommendation based on a short snippet needs investigation; an officially verified opening can still be a poor fit. Explain the next useful verification rather than hiding missing compensation, worksite or role details inside a precise score. Do not penalize a candidate for tools or requirements the posting never asks for.
 
 ## Deliver the shortlist
 

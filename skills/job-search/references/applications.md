@@ -10,6 +10,22 @@ Start with the candidate's approved résumé and evidence; if absent, draft from
 
 Select relevant evidence and use employer terminology only where truthful. A requirement in the job ad is not evidence that the candidate meets it. Prepare a cover letter when requested, required or useful for a material transition, not automatically for every role. Do not invent a contact person or company fact.
 
+### Select content before rewriting it
+
+Use the existing [requirement-to-evidence review](search.md#detailed-requirement-review) to choose the few duties the application must demonstrate. For each consequential requirement, identify the strongest supported example and where it belongs. Separate evidence already present, supported evidence missing from this draft, a genuine limitation, and an unresolved fact. A missing phrase is not automatically a skills gap or permission to add it.
+
+Select and reorder relevant bullets within a clear employment chronology before generating new prose. Prefer complementary examples over several bullets proving the same thing. Shorten lower-value repetition before cutting the only evidence for an essential duty or shrinking text until it is hard to read. Preserve employer/title/date associations; a target-role headline must not masquerade as a title the candidate held. Transferable work can explain a relevant method without claiming the destination industry's credentials, scale or domain experience.
+
+Write a bullet around the candidate's action, useful context and supported outcome or scope. A qualitative result, deliverable, recipient or recurring responsibility can be concrete without a number. Do not replace accurate assistance with ownership merely to get a stronger verb: name what the candidate contributed. Keep measurements tied to the correct employer, project, period and personal/team attribution. If deriving a useful value from supplied measurements, retain the calculation and assumptions for review; never silently turn a team result, estimate or market figure into a candidate achievement.
+
+For a substantial rewrite, use the interview explanation as a check: can the candidate describe what the wording means, what they personally did and how the stated outcome is known? If not, soften or resolve that exact claim. This checks defensibility; it is not proof of independent proficiency.
+
+### Match the requested writing help
+
+Distinguish critique, an outline/idea list, a focused edit and a complete document. Follow the requested mode; a paragraph edit should preserve the rest of the letter. Revise the latest actual draft rather than regenerating a similar older version. When the employer limits AI assistance, offer only help permitted by its actual rule.
+
+Use the candidate's stated tone and approved professional examples when supplied. A small optional style note can capture register, length, vocabulary and things to avoid, with source/review date. Casual chat is not automatically their application voice, and a writing sample supplies style rather than new career facts. Explicit language preferences take precedence; otherwise use the posting's language/local convention when appropriate. Reuse style decisions rather than rereading unchanged samples for every job.
+
 For a letter or motivation answer, connect the role's actual work, a source-backed employer priority and the candidate's best relevant evidence. An initial approach can strengthen the draft when presented as a proposal, not a promise or an accomplishment. Reuse known motivations and tone; ask only for a material missing personal reason or decision. Do not invent enthusiasm, require a new questionnaire before every draft, or force metrics into evidence that has none. Use [company research](company-research.md) when employer context would change the content.
 
 Before delivering/exporting a tailored document, compare changed factual claims with the approved source and evidence register:
@@ -21,13 +37,17 @@ Before delivering/exporting a tailored document, compare changed factual claims 
 
 Correct unsupported changes; preserve unresolved claims visibly as draft questions rather than finished assertions. Show material wording changes and uncertainty for review without creating a blanket extra approval gate. A stylistic preference is not a factual error.
 
-Use the available document tools; DOCX, PDF or plain text depends on the task/employer. Visually inspect exported documents and check extracted text when supported, disclosing any checks not performed. Text extraction establishes readability of that file, not compatibility with every ATS or a screening score.
+Review the draft separately for factual grounding and effectiveness: does the opening make the relevant contribution clear, does each example answer a real requirement, and does the letter add a reasoned connection rather than repeat the résumé? Identify the highest-value specific corrections, apply only supported changes and recheck affected claims. A second read-only reviewer can help a complex or high-value application when delegation is available and authorized; ordinary edits do not require another agent or an approval ceremony. Give a reviewer the actual draft, posting and relevant evidence, and verify proposed facts before using them. Stop when material issues are resolved; do not create an endless rewrite loop.
+
+Use the available document tools; DOCX, PDF or plain text depends on the task/employer. Apply [document quality](document-quality.md) to the final saved bytes: inspect exported pages and extracted text where supported, repair observed problems and name checks not performed. A successful export, a text-presence result or a heuristic match score does not establish employer ATS acceptance or a hiring probability.
 
 ## Reuse and version materials
 
 For repeated applications, consult the existing material catalogue before creating another file. Reuse a résumé when its evidence, emphasis and format fit the actual role; otherwise make a focused variant. A few role-family bases can help, but neither a fixed number of résumés nor one file per job is a requirement. Reuse the candidate's approved layout and tone while checking each role's requested format, length and assistance policy. Approval of one document does not verify new claims or remove the final-review boundary.
 
 Keep the catalogue in one designated place, such as the workbook's Materials sheet or a private document register. Useful fields are stable material ID, type/focus, version, file path, creation date, profile/evidence revision, intended roles and any reuse limitation. Point applications to those IDs; one version may serve several roles. Retain a hash when it helps distinguish otherwise identical filenames or verify an attachment.
+
+Keep a reusable master/evidence inventory separate from the files sent to employers; it may hold supported examples omitted for length. Previous tailored wording is a drafting aid, not a new source of facts. Record the baseline and a brief reason for a material variant so future tailoring does not accumulate unsupported wording. Named candidate-approved and submitted checkpoints stay distinguishable from disposable autosaves; do not import another app's automatic retention/deletion schedule.
 
 Preserve sent versions. A profile correction or new relevant experience triggers review of affected unsubmitted materials, not silent replacement of submitted history. Distinguish an unchanged reusable file from a new variant. When the candidate sends personally, retain the last verified prepared files and label the final sent versions unverified unless observed or explicitly confirmed; a send report alone does not establish that no edits were made.
 

@@ -70,6 +70,16 @@ You can also paste one posting and ask the skill to assess it before doing a sea
 
 Check whether the recommendations respect your hard limits and whether the explanation matches your actual experience. On a second run, ask for new or changed opportunities since the last successful search and watch for repeated vacancies.
 
+Already have a particular job in mind? You can also try either of these:
+
+```text
+Use $job-search to tailor my résumé for this posting. Select the strongest supported examples first, preserve what I actually did, and check the final saved document. Keep final sending and submission with me.
+```
+
+```text
+Use $job-search to help me practice for this interview using the posting and the résumé I actually sent. Ask one question, then give focused feedback based on my answer and choose one useful drill. Keep examples and achievements factual.
+```
+
 ## 5. Share feedback
 
 Copy [FEEDBACK.template.md](FEEDBACK.template.md), fill in the useful parts and send it manually to the friend who shared this ZIP. One good match and one poor match, with a short explanation, are especially helpful.

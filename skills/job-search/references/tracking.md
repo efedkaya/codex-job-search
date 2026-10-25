@@ -27,6 +27,12 @@ After a material event, reconcile the affected records as one completion checkpo
 
 For Excel, useful fields are company/role and stable reference, source posting, application route, status and dates, résumé/letter IDs, next action, optional follow-up/interview dates, evidence source and notes. Discovery source and application route are different: a role found on a board may be applied to by employer email. Leave unknown fields blank. Use simple filters/dropdowns and formula totals when helpful; no extra dashboard is required. Keep linked PDFs with the workbook or use verified reachable paths, and preserve portable relative links when moving the package. A due follow-up is a planning cue, not permission to send or schedule one.
 
+### Interpret replies before changing status
+
+Use a user-supplied message, an authorized relevant account read, or the candidate's explicit report; a tracker update request does not itself grant unrelated mailbox access or background monitoring. Match employer, requisition/role, recipient and prior attempt before applying a reply. A message ID and date can prevent duplicate ingestion when available; a subject-line similarity alone is not identity.
+
+Separate an automated receipt, recruiter question, assessment invitation, confirmed interview scheduling, rejection, withdrawal and an actual offer. A request to share availability is not yet a scheduled interview. An offer to discuss compensation is not a written offer, and a practice reminder is not an employer event. Preserve the source and exact material dates; ambiguous replies become notes or proposed updates until resolved. Use only documented event types and put round details in the supported notes/working view; don't invent a new helper schema. Record the evidence first, then reconcile the next action without erasing historical stages reached.
+
 ## Invocation
 
 Python 3.10+; standard library only. Resolve the script from this skill's installation directory. Every call requires an explicit absolute private workspace outside the public repository and skill. Save input JSON in that private workspace; never interpolate posting text into shell commands. Use a file tool to write JSON and pass its path as a properly quoted argument.

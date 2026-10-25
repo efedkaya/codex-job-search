@@ -1,5 +1,17 @@
 # Validation and limits
 
+## 0.5.0 update — 25 October 2026
+
+This release merges the ten-repository workflow review into the shared edition while retaining first-use setup, the 241-company priority seed, private context/answer reuse and candidate-controlled final submission. It adds evidence selection and scoped writing, concrete final-document checks, source-import diagnostics, focused interview drills and next-action/reply interpretation. Source revisions and retained notices are in [adaptation provenance](skills/job-search/references/third-party-notices.md).
+
+- **89 offline unit tests passed locally** on macOS/Python 3.12.14: the existing 68 tests plus 21 material-checker tests. A real fictional PDF was checked with an already installed parser; absent-parser behavior is separately tested. On hosts without a PDF extractor, that optional integration test is explicitly skipped.
+- The skill frontmatter/scaffold validator and **50-file public distribution check** passed. **139 internal file/heading links** and the JSON files were checked. An identifying-term scan and a separate review of newly included content found no private candidate material or machine-specific paths.
+- The material checker covers wrong/missing text, placeholders, Unicode and technical-term boundaries, changed attachment hashes, text order, byte/page limits when measurable, DOCX split runs/headers and answer limits. A sentence-ending-punctuation false negative was found in independent testing, corrected and covered by regression tests.
+- Four additional fictional cases cover evidence-limited application writing, focused typed interview coaching, a partial import with defaults/errors/caps, and mixed-stage next actions. Independently produced responses were inspected against the supplied facts. These cases now appear in the behavior fixture; they are not counted as unit tests. The prior sharing-edition first-use trial remains dated evidence below.
+- The release ZIP and isolated installation are checked against the explicit manifest before publication. Existing stateful programs and their previous tests are retained. Public source files contain only reusable guidance, notices, tools and fictional examples.
+
+The hosted workflow runs the package checks on Linux, macOS and Windows with Python 3.10/3.13. Actual results for the published commit belong to its Actions run; the local results above do not claim a hosted result in advance. These checks do not establish universal ATS compatibility, native discovery in every host, live board coverage, external account persistence, application success or improved hiring outcomes. The ten upstream apps/test suites were not installed or run.
+
 ## 0.4.0 update — 25 October 2026
 
 This update synchronizes the later shared skill workflows: personal setup and context snapshots, a scoped answer bank, selected-job draft preparation, company priorities/coverage, profiles, interviews and offers. The bundled company seed has 241 distinct names from 173 global-list and 74 Canadian-list rows with 6 overlaps. It contains public company labels only, with no personal profiles, answers, search outcomes or application files.

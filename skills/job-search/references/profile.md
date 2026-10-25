@@ -33,6 +33,7 @@ For an ongoing search, establish:
 - Preferred sources and named target employers, if any; search time zone for inclusive-day checkpoints.
 - Any stated application submission preference, especially a candidate-performed final review/Send/Submit step. Save it in the private profile and reuse it across channels; see [selected-job applications](submit-applications.md).
 - For repeated applications, the chosen working tracker, material catalogue and preferred document layout/length. Reuse existing paths and candidate-approved examples; do not make these optional workflow preferences a new intake requirement.
+- Optional writing preferences or supplied professional examples: application language, register and what the candidate wants preserved. Keep these distinct from the facts asserted in a writing sample; use the scoped editing guidance in [applications](applications.md#match-the-requested-writing-help).
 - Search time available, date range, and whether setup, networking and interview preparation share that allowance.
 
 Ask unanswered essentials together in a few concise questions. Do not demand personality assessments, salary history, identification documents or demographic data. For a one-off posting, uncertainty notes may be sufficient.

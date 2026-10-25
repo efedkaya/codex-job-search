@@ -18,6 +18,14 @@ Resolve the current request to search, selected-job preparation, final-review ha
 
 Near-term application work can be a better use of a session than expanding a large existing queue, but follow the user's requested scope. Do not impose a fixed batch size, application quota or universal freshness interval.
 
+## Surface the next useful work
+
+When the user asks what to do next or wants a campaign overview, derive a short action queue from the chosen tracker and current records. Each item needs a job/attempt reference, one concrete next action, an owner, any real due date/time zone, the material or evidence pointer and the blocker if one exists. Keep an unknown deadline unknown; urgency is not a reason to invent a date.
+
+Distinguish ready for candidate review, ready for an authorized next step, blocked on a fact/access, waiting on the employer and completed. A saved file is not automatically reviewed, an uploaded file is not submitted, and a due task is not authorized. Prioritize actual deadlines and confirmed interviews, the candidate's selections and high-value unfinished work within their budget. Do not let a dashboard's stage or a model fit score override those choices.
+
+Reuse existing next-action fields or a compact private note rather than introducing another mandatory tracker. State which record is current and which views could not be reconciled. No background mailbox watcher, recurring search or follow-up sender is implied by a planning queue.
+
 ## Close with an actionable handoff
 
 Report what changed, prepared versus submitted status, exact material versions, unresolved facts and the next candidate action. For final-review handoffs, follow the saved submission mode and draft-persistence rules in selected-job applications. A pending blocker on one job should not hold up independent selected jobs.

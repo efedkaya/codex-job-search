@@ -4,9 +4,18 @@ Find relevant opportunities, explain the fit, and keep an honest application his
 
 A reusable skill for OpenAI Codex. It adapts to the candidate's country, career stage, work preferences and available time. Personal information lives in a separate private workspace. Each person starts with their own location, pay, experience and skills. A configurable 241-company list gives discovery a large-employer priority without overriding those facts.
 
-**Status: preview release, 0.4.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
+**Status: preview release, 0.5.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
 
 [Download the preview ZIP](https://github.com/efedkaya/codex-job-search/releases/latest) · [Get started](START_HERE.md) · [Send feedback or report a problem](https://github.com/efedkaya/codex-job-search/issues/new/choose)
+
+## New in 0.5.0
+
+- More deliberate evidence selection before résumé rewriting, scoped letter edits and a separate review of factual grounding and effectiveness.
+- [Final-document checks](skills/job-search/references/document-quality.md) for the actual saved file, with an optional read-only [material checker](skills/job-search/scripts/check_materials.py) for text, placeholders, hashes, limits and supported extraction. PDF checking uses an already installed parser when available; it does not render pages or establish ATS acceptance.
+- Interview story mapping with primary/backup examples, focused drills based on observable answers and preparation tied to the materials actually sent.
+- [Imported-job guidance](skills/job-search/references/source-adapters.md) that preserves raw values, source defaults, errors and partial coverage; no scraper is bundled.
+- A concise next-action queue and evidence-based interpretation of application replies, preserving the candidate's final-send boundary.
+- Selected workflow ideas from ten reviewed repositories, with pinned revisions and notices in [adaptation provenance](skills/job-search/references/third-party-notices.md).
 
 ## New in 0.4.0
 
@@ -35,7 +44,7 @@ It does not ship job-board scrapers, automatically apply, send messages, bypass 
 
 Trying this from a friend? Start with [START_HERE.md](START_HERE.md) for the ChatGPT starter or guided local Codex installation. Use [the feedback template](FEEDBACK.template.md) after your trial; nothing is collected or sent automatically.
 
-You need Codex with skill support. A supported browser connection and permitted site access are needed for live signed-in board searches. Web access is needed for current job discovery; without it, the skill can review pasted postings. Python 3.10+ is needed only for the optional helpers. The tracker and packaging tool use the Python standard library. Calendar search checkpoints require IANA time-zone data; some systems, especially Windows, need the Python tzdata package. No paid search service, API key, Bun or LaTeX installation is required. Host AI usage and optional third-party services follow their own plans and limits.
+You need Codex with skill support. A supported browser connection and permitted site access are needed for live signed-in board searches. Web access is needed for current job discovery; without it, the skill can review pasted postings. Python 3.10+ is needed only for the optional helpers. The tracker, packaging tool and text/DOCX material checks use the Python standard library. PDF material checks optionally use an already installed pypdf or pdftotext; unavailable checks are reported explicitly. Calendar search checkpoints require IANA time-zone data; some systems, especially Windows, need the Python tzdata package. No paid search service, API key, Bun or LaTeX installation is required. Host AI usage and optional third-party services follow their own plans and limits.
 
 From the extracted package directory:
 
