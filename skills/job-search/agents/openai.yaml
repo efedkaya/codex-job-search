@@ -1,4 +1,4 @@
 interface:
   display_name: "Job Search"
-  short_description: "Find and evaluate jobs using evidence and constraints"
-  default_prompt: "Use $job-search to find and assess opportunities against my experience, location and time budget."
+  short_description: "Personal job hunt with questions and reusable context"
+  default_prompt: "Use $job-search to learn my background and job preferences, build my own reusable context, and find suitable roles with the shared company list prioritized."

@@ -2,25 +2,15 @@
 
 Use this reference for bounded searches, repeat runs, delegated work or the optional vacancy helper. It complements source coverage in [search-state.md](search-state.md) and application history in [tracking.md](tracking.md); these are separate records.
 
-## Choose a mode and a stopping condition
+## Budgets and stopping conditions
 
-| Mode | Use | Work and completion rule |
-|---|---|---|
-| Update | Established scopes with prior successful scans | First recover pending/unreported work, then check new or materially changed findings in the inclusive date window. Reuse current assessments and verification. A source finishes only when its requested coverage is observed. |
-| Targeted | A bounded shortlist or short search session | Agree or infer a practical budget. About 25 unique promising/uncertain vacancies reviewed and up to eight final recommendations is a starting point, not a required quota. Stop when useful choices or the budget are reached; disclose unscanned pages. |
-| Full audit | An explicit all-pages/complete first scan of defined sources and filters | Enumerate every reachable scoped page/batch with no age cutoff unless requested. Review depth can be bounded separately. Neither 25 reviews nor eight recommendations completes an unfinished scan. Save continuation when interrupted. |
-
-For an initial request to search all reachable results, use Full audit. Do not silently downgrade it to Targeted. An ordinary shortlist need not trigger an exhaustive scan. Keep the user's roles, location, sources and time constraints explicit; none of these modes guarantees every vacancy in the market.
-
-Track discovery coverage, detailed reviews and reported recommendations separately. A budget may limit elapsed time, source scopes, tool calls or detailed reviews; configure it to the request and available tools. If enumeration stops early, record partial/blocked/failed and keep that scope's successful watermark unchanged. If enumeration finishes but assessment does not, record complete coverage with pending assessments still in the ledger. Successful fallback coverage never advances a blocked board's watermark.
-
-Group queries by role family and close title variants. Reserve a small exploration slice for adjacent duties, then expand only if results warrant it. Screen known hard eligibility conflicts before detailed fit work. Unknown language, work rights, tool capability or commute stays unknown; use possible/deferred rather than rejected solely for missing evidence. Keep skills fit, eligibility and application readiness separate.
+Choose the mode using [search.md](search.md). A budget can limit elapsed time, source scopes, tool calls or detailed reviews; configure it to the request and tools. Keep enumeration, assessments and reporting separate. If enumeration completes before assessment, complete only coverage and retain pending assessments. For early stops, use the outcome/checkpoint rules in [browser-search.md](browser-search.md) and [search-state.md](search-state.md).
 
 ## Reduce repeated reading
 
 Read the profile/evidence once, then optionally write a private compact profile brief containing profile revision, hard constraints, preferences, role families, relevant claim IDs and capability levels, key unknowns and file pointers. This is a derived working aid, not a replacement for the sources. Refresh it after material corrections. Do not copy a whole CV, transcript, chat history or evidence archive into every worker prompt.
 
-For browser work, request current result cards and pagination/filter state, or the relevant posting sections. Avoid repeated full-page dumps and long snapshots after every action. A full snapshot or screenshot remains appropriate when required by the tool or needed to resolve layout/loading ambiguity. Accumulate stable IDs while progressively scrolling virtualized lists; a final bottom snapshot or End key is not evidence of the intervening cards. Follow the host browser's documented operations.
+Use the compact observation and progressive traversal procedure in [browser-search.md](browser-search.md); it defines when targeted reads, full snapshots and screenshots are appropriate.
 
 Use compact helper reads: current-batch membership for search state, filtered/paginated ledger lists and `get` only for a selected vacancy. Save observations once and reuse them. Do not reopen an unchanged vacancy already checked by another worker without a stale cache, material change, contradictory source, unresolved decision or application recheck that needs it.
 
@@ -98,4 +88,4 @@ Choose freshness for the action. A fresh shared check may support search compari
 
 If usage information is available, record elapsed agent time, browser/tool calls, unique observed vacancies, duplicates reused, detailed reviews, verified postings, recommendations and coverage status. Keep candidate active time separate. Record tokens or cost only when the host exposes attributable actual usage and its basis; otherwise mark unavailable. Do not estimate token savings from text length or invent costs, speedups or hiring benefits.
 
-A comparison is meaningful only with comparable scopes, access conditions, budgets and output quality. State whether a run was a fixture test or live search, and whether usage includes parallel workers or retries. Do not change model, speed/effort, account limits, subscriptions or host settings as an optimization. Any claimed benefit must come from observed measurements, not the existence of this workflow.
+A comparison needs comparable scopes, access conditions, budgets and output quality. State fixture versus live search and whether measurements include parallel workers/retries. The shared budget rules in SKILL.md govern settings and benefit claims.

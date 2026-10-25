@@ -2,16 +2,25 @@
 
 Find relevant opportunities, explain the fit, and keep an honest application history.
 
-A reusable skill for OpenAI Codex. It adapts to the candidate's country, career stage, work preferences and available time. Personal information lives in a separate private workspace. Toronto is one example configuration, not the product's default market.
+A reusable skill for OpenAI Codex. It adapts to the candidate's country, career stage, work preferences and available time. Personal information lives in a separate private workspace. Each person starts with their own location, pay, experience and skills. A configurable 241-company list gives discovery a large-employer priority without overriding those facts.
 
-**Status: preview release, 0.3.2.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
+**Status: preview release, 0.4.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
 
-[Download the preview ZIP](https://github.com/efedkaya/codex-job-search/releases/tag/v0.3.2) · [Get started](START_HERE.md) · [Send feedback or report a problem](https://github.com/efedkaya/codex-job-search/issues/new/choose)
+[Download the preview ZIP](https://github.com/efedkaya/codex-job-search/releases/latest) · [Get started](START_HERE.md) · [Send feedback or report a problem](https://github.com/efedkaya/codex-job-search/issues/new/choose)
+
+## New in 0.4.0
+
+- Background-led setup with a dated private profile and portable context snapshot.
+- A [241-company priority seed](skills/job-search/references/priority-employers.json), configurable by each candidate, with honest company-by-company coverage.
+- A [reusable answer bank](skills/job-search/references/answer-bank.md): real job requirements surface useful questions; confirmed replies refine searches and future drafts without repeated intake.
+- Selected-job application preparation with candidate-final-review-and-submit as the default, including email, employer ATS and job-board routes.
+- Profile audits, materials/tracker reconciliation, interview preparation and offer comparison, alongside the existing search/checkpoint helpers.
+- A [ChatGPT conversation starter](CHATGPT_STARTER.txt) with an explicit context-file fallback. This is not a native web-plugin installation or a promise of account memory.
 
 ## What it does
 
 - Builds a profile from evidence, keeping independent ability, assisted work and coursework distinct.
-- Searches accessible LinkedIn, Glassdoor and Indeed pages through supported host browser tools, with official employer sites, employer-linked public recruiting platforms, public web and regional/specialist boards as useful fallbacks.
+- Searches accessible LinkedIn, Glassdoor, Indeed and Canada Job Bank pages where regionally relevant through supported host browser tools, with official employer sites, employer-linked public recruiting platforms, public web and regional/specialist boards as useful fallbacks.
 - Offers Update, Targeted and Full audit modes. An explicitly requested full first scan covers all reachable scoped pages; repeat runs use each source’s last successful scan and interrupted coverage stays resumable.
 - Keeps newly posted, newly discovered and updated/reposted roles distinct, and verifies promising leads against actual postings.
 - Screens established eligibility conflicts before deeper fit work; keeps unknowns open for investigation and explains apply / investigate / skip decisions.
@@ -24,7 +33,7 @@ It does not ship job-board scrapers, automatically apply, send messages, bypass 
 
 ## Quick start
 
-Trying this from a friend? Start with [START_HERE.md](START_HERE.md) for guided installation and a first-use prompt. Use [the feedback template](FEEDBACK.template.md) after your trial; nothing is collected or sent automatically.
+Trying this from a friend? Start with [START_HERE.md](START_HERE.md) for the ChatGPT starter or guided local Codex installation. Use [the feedback template](FEEDBACK.template.md) after your trial; nothing is collected or sent automatically.
 
 You need Codex with skill support. A supported browser connection and permitted site access are needed for live signed-in board searches. Web access is needed for current job discovery; without it, the skill can review pasted postings. Python 3.10+ is needed only for the optional helpers. The tracker and packaging tool use the Python standard library. Calendar search checkpoints require IANA time-zone data; some systems, especially Windows, need the Python tzdata package. No paid search service, API key, Bun or LaTeX installation is required. Host AI usage and optional third-party services follow their own plans and limits.
 
@@ -37,7 +46,7 @@ python tools/distribute.py install
 
 On macOS/Linux the interpreter may be named python3; on Windows it may be py. The installer copies only the skill folder into ~/.agents/skills/job-search, following the current documented global skill location. It refuses to overwrite a different installation and leaves existing files untouched. It can be pointed at another supported skills directory with --skills-dir, including ~/.codex/skills for hosts using that location. No configuration permissions are modified.
 
-Alternatively, copy the entire [skills/job-search](skills/job-search) folder into a supported skill location. For a project-only skill, use .agents/skills/job-search in that project. See [OpenAI's skill documentation](https://developers.openai.com/codex/skills). If the skill does not appear, refresh or restart the host and check its supported discovery paths.
+Alternatively, copy the entire [skills/job-search](skills/job-search) folder into a supported skill location. For a project-only skill, use .agents/skills/job-search in that project. See [OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills). If the skill does not appear, refresh or restart the host and check its supported discovery paths.
 
 Then ask Codex:
 
@@ -69,11 +78,13 @@ No universal slash commands or specific connector names are assumed. Use the ski
 
 Have Codex create or use a private directory outside both this public repository and the installed skill. Copy the blank [profile template](skills/job-search/references/profile.template.json) there. Do not replace public examples with your real résumé or edit candidate facts into SKILL.md.
 
-On first use for an ongoing search, the skill runs a short intake in rounds of up to three questions. It invites a CV/portfolio or written background, asks about roles and employers, location/work arrangement, and material limits such as commute, start date and time budget. It reads supplied information before asking and skips known or optional details. Returning users reuse their private profile instead of repeating setup. A single posting review does not force full onboarding.
+On first use for an ongoing search, [personal setup](skills/job-search/references/first-run.md) runs a short intake in rounds of up to three questions. It invites a CV/portfolio or written background, asks about roles and employers, location/work arrangement, and material limits such as commute, start date and time budget. It reads supplied information before asking and skips known or optional details. Returning users reuse their private profile instead of repeating setup. A single posting review does not force full onboarding.
 
 The profile separates hard constraints from preferences. Unknown language, salary, work rights, tools and commute details remain unknown. Only ask for information relevant to a decision. Exact home addresses and demographic data are not needed.
 
 [Toronto commercial-work example](examples/toronto_fictional.json) and [Leeds career-change example](examples/leeds_fictional.json) are entirely fictional. They demonstrate different countries, functions, work arrangements and budgets; neither should silently become the next user's profile.
+
+The [first-use guide](skills/job-search/references/first-run.md) defines how to save profile/evidence, the answer bank and a dated PROFILE_CONTEXT.md outside the public package. Without persistent files, the assistant should provide a copyable context snapshot and state the limit; account memory is separate and requires an actual authorized feature. The [employer priority guide](skills/job-search/references/employer-priorities.md) explains the bundled company seed. Names are not vacancies, and copying the seed does not inherit another candidate's search status.
 
 Optional local helpers keep different facts separate:
 
@@ -128,4 +139,4 @@ Use fictional examples and reserved .example URLs. Run the tests and package che
 
 Inspired by [Mads Lorentzen's AI Job Search](https://github.com/MadsLorentzen/ai-job-search), especially its structured application workflow and emphasis on evidence. The upstream project already includes Codex-compatible components; this project does not claim to be the first Codex job-search tool.
 
-This package uses an original implementation focused on configurable candidate profiles, explicit uncertainty, accurate event records and minimal dependencies. No upstream source code or assets are bundled. New contributions are offered under the [MIT license](LICENSE). If upstream code is incorporated later, preserve its applicable copyright and license notices.
+This package uses an original implementation focused on configurable candidate profiles, explicit uncertainty, accurate event records and minimal dependencies. Selected later workflow adaptations and their retained license are described in [third-party notices](skills/job-search/references/third-party-notices.md). No upstream executable code or external services are bundled. New contributions are offered under the [MIT license](LICENSE). If upstream code is incorporated later, preserve its applicable copyright and license notices.

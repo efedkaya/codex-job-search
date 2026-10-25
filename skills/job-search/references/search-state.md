@@ -81,7 +81,7 @@ Before checkpointing IDs, upsert the observed compact vacancy facts into private
 
 On every start, review pending/unreported ledger records as well as new_ids. A crash after recording IDs must not suppress a role that was never assessed or shown. A reported role normally stays out of the main repeat shortlist unless materially changed. Search state cannot determine assessment or reporting state; the ledger holds those separately.
 
-If an older private discoveries.json exists, check it minimally for pending/unreported work before relying on a new or incomplete ledger. Import supported records through validated upserts with their source/uncertainty intact when needed; preserve the legacy source file. There is no automatic or destructive migration. Do not fabricate verified status or silently mark historical observations as assessed/reported. Existing tracker.json and search_state.json remain separate and unchanged by the ledger. If persistence is unavailable, retain a compact record in chat and disclose that limit.
+If an older private discoveries.json exists, check it minimally for pending/unreported work before relying on a new or incomplete ledger. Import supported records through validated upserts with their source/uncertainty intact when needed; preserve the legacy source file. There is no automatic or destructive migration. Do not fabricate verified status or silently mark historical observations as assessed/reported. The ledger does not mutate tracker.json or search_state.json; use the shared in-chat fallback when persistence is unavailable.
 
 ## Finish and resume
 
@@ -100,4 +100,4 @@ Only complete advances the successful checkpoint. An unfinished scan or successf
 
 Finished attempts are immutable. To resume a partial/blocked/failed attempt, call start again with the same scope, inspect pending_runs and recheck the newest/front pages before continuing the old location. Save fresh checkpoints. For a running attempt interrupted by a crash, start likewise carries its coverage anchor. Do not run competing browser scans for the same scope: the file lock protects individual writes, not an entire browsing session.
 
-Coverage uses private search_state.json and .search_state.lock; the separate ledger uses vacancies.json and .vacancies.lock. Legacy discoveries.json may remain as a preserved input. Keep them out of repositories, ZIPs and installed skill folders. A search session is not a scheduled monitor; repeated invocations or an explicitly requested host automation are separate choices.
+Coverage uses search_state.json and .search_state.lock; the ledger uses vacancies.json and .vacancies.lock. Preserve legacy discoveries.json as input under the shared private-state rules. Repeated invocations and explicitly requested host automations are separate from a single search session.

@@ -1,3 +1,24 @@
+# Validation and limits
+
+## 0.4.0 update — 25 October 2026
+
+This update synchronizes the later shared skill workflows: personal setup and context snapshots, a scoped answer bank, selected-job draft preparation, company priorities/coverage, profiles, interviews and offers. The bundled company seed has 241 distinct names from 173 global-list and 74 Canadian-list rows with 6 overlaps. It contains public company labels only, with no personal profiles, answers, search outcomes or application files.
+
+Local checks were run on macOS with Python 3.12.14. Fictional behavioral checks and offline tests do not establish native installation on another person's device, permanent ChatGPT memory, live board coverage, successful applications or improved hiring outcomes.
+
+- **68 offline unit tests passed:** 29 tracker (including 13 later regressions), 16 search-state, 13 vacancy-ledger and 10 distribution tests.
+- The skill frontmatter/scaffold validator passed.
+- The public distribution check passed for **46 allowlisted files**; **125 local reference links/anchors** and JSON files were checked.
+- The company seed contains **241 names**, with source memberships of 173 and 74 and 6 shared names. Candidate data and creator-specific paths/defaults were checked separately and excluded.
+- Private-state distribution regressions cover the answer bank, context snapshot, company/search records and evidence/identity pointers in addition to existing tracker protections.
+- Release ZIP and isolated install contents are compared with the public manifest before publication. Remote CI, native installation on friends' machines, live searches and persistent account memory are separate from these offline checks.
+
+An independent fictional first-use/answer-reuse trial on the synchronized sharing edition adapted to a Halifax hospitality candidate and retained unanswered screening details. It identified a seed-resource path ambiguity, which was corrected: template paths are explicitly relative to the skill root, and setup resolves an accessible source pointer. The trial did not browse, submit, alter accounts or modify candidate data.
+
+The installed-source tracker regression suite is included in the repository tests. Distribution guards now also exclude reusable-answer files, context snapshots and candidate-specific company/search registers. Historical checks below remain dated evidence, not current live guarantees.
+
+## Historical 0.3.2 validation
+
 # Validation scope
 
 Release: 0.3.2 public preview. Checked on 13 October 2026 with Python 3.12.14 on macOS. This is a tested initial version, not a claim of universal job-board compatibility or production reliability.

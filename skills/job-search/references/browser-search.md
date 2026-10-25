@@ -1,6 +1,6 @@
 # Live boards, employers and repeat searches
 
-This is an agent workflow using the host's supported browser tools, not a bundled scraper or an API integration. Read the current browser tool instructions. Use only available, documented operations. Search through visible UI and inspect results after navigation; do not extract cookies, call hidden endpoints, bypass restrictions or install a browsing dependency silently.
+This is an agent workflow using the host's supported browser tools, not a bundled scraper/API integration. Follow the shared source-integrity rules in SKILL.md, read the current browser instructions and inspect visible state after navigation.
 
 ## Define the search before counting coverage
 
@@ -14,11 +14,11 @@ Use a stable scope for each source plus query, location, employer, constraints a
 
 Use the smallest supported browser read that answers the current question: result cards plus query/filter and Next/load-more state for discovery; identity, eligibility, requirements and apply/closure state for verification. Keep summaries in the ledger and output only the current batch or requested fields. Do not repeatedly emit whole-page snapshots, account sidebars, navigation trees or full HTML when targeted reads suffice. Use a full snapshot or screenshot when it is necessary to locate controls, resolve loading/layout ambiguity or obey the browser tool contract; then return to focused reads. Never invent a selector or an unsupported read operation.
 
-If LinkedIn, Indeed or Glassdoor requires unavailable access, is blocked, or cannot be searched reliably, record that scope as blocked/partial and continue on official employer sites and their linked public ATS, public web search, and suitable regional or specialist boards. Independently confirm official link chains. Web snippets establish discovery only; an accessible actual posting is needed for verification. Give each fallback its own coverage scope. Do not treat fallback findings or completion as successful coverage of the blocked board, bypass restrictions, extract sessions or call hidden endpoints.
+If a board requires unavailable access, is blocked or cannot be searched reliably, mark that scope blocked/partial and continue through official employer sites and linked public ATS, web search, and regional/specialist boards. Verify official link chains. Give each fallback its own scope: its findings/completion cannot advance the blocked board's checkpoint.
 
 ## First full scan: all reachable matching results
 
-An explicitly requested full first scan uses Full audit mode; a bounded Targeted shortlist does not silently become an exhaustive baseline. Start a full baseline with no posting-age cutoff unless the user explicitly requested one. Follow every accessible results page or loaded batch for that scope. “All pages” means the results the site exposes for the stated query and filters, not every job that exists. Treat a site-imposed result cap as a coverage limit and record it; do not promise complete market coverage.
+Apply the mode and age-cutoff rules in [search.md](search.md). A full scan covers every accessible page/batch for the agreed query and filters. Record site-imposed result caps as coverage limits; reaching a cap completes only the exposed set.
 
 1. Read the current results and record unique listing IDs/direct URLs, employer, title, visible location, raw posting-date label and checked time. Save compact discovery facts in the shared [vacancy ledger](efficiency.md) before checkpointing IDs or moving on. Retrieve scope membership only for the current batch; seen does not mean assessed/reported. Do not open every clearly irrelevant role for a deep review.
 2. Use the observed Next/page/Show more control, or a documented scroll action on the actual results pane. Reacquire the page state after each action. If the view is still loading or observations disagree, use the supported refreshed snapshot/screenshot to establish the completed state before continuing. Lazy-loaded and virtualized lists can replace earlier cards: accumulate each visible batch before it disappears, scrolling progressively through the actual result pane. Do not press End, jump straight to the bottom or take only a final snapshot: those actions can skip cards that were never observed.
@@ -50,17 +50,28 @@ Only successful coverage advances that scope's date boundary. The helper conserv
 
 ## Board-specific guidance
 
-These are UI observations from 13 October 2026, not permanent selectors. Discover the current controls each run. Country versions and accounts differ.
+These are dated UI observations and starting points, not permanent selectors. Discover the current controls each run. Country versions and accounts differ.
 
 | Source | Observed search behavior | Operating rule |
 |---|---|---|
 | [LinkedIn Jobs](https://www.linkedin.com/jobs/) | Keyword/location search, Date posted choices and numbered pages/Next; the current page warns of a transition from classic search | Check the active search mode and filters; do not assume classic URL parameters or old element names remain valid |
 | [Indeed Canada](https://ca.indeed.com/) | Search has Date posted (24h/3/7/14 days), date sorting and Next page; homepage uses “Show more jobs” | Verify the local country's site, applied date/sort/radius and actual pagination; “New” is not an exact posting date |
 | [Glassdoor](https://www.glassdoor.com/Job/index.htm) | Search is separate from For you; date, relevance, distance controls, relative date labels and Show more jobs were exposed | Resolve location suggestions carefully, verify actual results, and inspect the current load-more/pagination mechanism rather than assuming one |
+| [Canada Job Bank](https://www.jobbank.gc.ca/jobsearch/jobsearch) | Official Canadian search; keyword/location, occupation suggestions and advanced search may constrain the result set | Include for Canadian searches. Check selected occupation/NOC, city and radius; keyword variants and separate local/remote searches may be needed. Job Match recommendations and a saved primary occupation are not complete search coverage |
 
-Do not click Save, Dismiss, Create alert, Apply, Express interest or account-setting controls during discovery. These can change the account or communicate interest. Handle any requested external action under the user's authorization and current host policy. When access fails, use an independently found employer posting or report the lead as unverified; a fallback does not complete the blocked board's scope.
+### Canada Job Bank
+
+Use a separate `jobbank` source scope and the same candidate constraints as other boards. A primary profile location or occupation does not replace the full search plan. Verify each worksite when the site radius includes excluded cities, and verify where remote applicants may reside. Read the individual posting's experience wording: a coarse experience filter does not prove that a role meets a candidate's maximum required minimum.
+
+Checked on 25 October 2026: Advanced search exposed experience bands of no experience, less than one year, one year to less than three years, and three years or more. Include a band that overlaps the candidate's limit, then check each posting's actual minimum. Salary controls exposed annual/hourly bands rather than an exact floor. Retain overlapping and higher bands, or leave the salary filter broad and screen locally; selecting only the band containing the floor can omit better-paid jobs. Unknown pay remains unknown. Recheck these controls at runtime.
+
+Capture the Job Bank posting number/direct URL, actual employer, worksite, wage and pay period, essential versus preferred requirements, and application route. Distinguish postings hosted by Job Bank from results supplied by another job board; follow the visible original source and retain both identities. Do not merge cross-postings on title/company alone. An advertised-until date is not a guarantee that applications remain open; recheck the current application state. A posting, Job Match invitation or labour-market/immigration label does not establish the candidate's eligibility or authorize an application. Do not enable Job Match, alerts, employer visibility or expanded account access merely to search.
+
+During discovery, do not click Save, Dismiss, Create alert, Apply, Express interest or account settings: these may change the account or communicate interest. Requested external actions follow the shared authorization rules.
 
 ## Named employers and sectors
+
+For employer rankings, supplied company tables, large target lists and per-company completion records, read [search angles and employer targets](search-angles.md). The official-route rules below apply to every target; registering or searching for an employer is not vacancy enumeration.
 
 When the user names an employer, add its official careers site as a separate source alongside boards. Start at its corporate website, follow Careers/Jobs, then verify any onward recruiting domain from that link chain. Record the official entrypoint, current destination, employer/legal entity and checked date. Do not infer an ATS hostname or hardcode stale application URLs. No application submission is implied.
 
@@ -85,4 +96,4 @@ These examples are optional discovery aids, not the supported-employer list. Res
 
 Summarize per source/query: baseline or incremental, requested date window, pages/batches and unique IDs observed, completion status, limitation and next resume action. Then show a small evidence-based shortlist and a separate section for uncertain freshness or material updates. “No new verified matches” is narrower than “no jobs.”
 
-Keep candidate review/application hours separate from agent browsing time, tool-call and host usage limits. Use the [efficiency guidance](efficiency.md) for configurable budgets and actual-use measurements. Broad first scans can require several sessions. If a scan cannot fit, save its progress rather than pretending completion or quietly shrinking the user's scope. Reuse stored results for deeper assessment, applications and interview preparation.
+Use [efficiency](efficiency.md) for configurable budgets and actual measurements. Broad first scans may need several sessions; retain continuation when the scope exceeds the budget. Reuse stored results for deeper assessment, applications and interview preparation.

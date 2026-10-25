@@ -1,0 +1,1949 @@
+{
+  "schema_version": 1,
+  "list_revision": "shared-2026-10-25",
+  "purpose": "Configurable default employer discovery priorities for a new candidate; not a list of vacancies or employers that suit every person.",
+  "default_policy": "prioritize_unless_candidate_overrides",
+  "source_rows": {
+    "shared_global_company_list": 173,
+    "shared_canadian_company_list": 74,
+    "overlaps": 6
+  },
+  "unique_employers": 241,
+  "limitations": "Names and category labels were supplied as discovery seeds. Current brand/legal identity, index membership, company size, work locations and vacancies have not been validated by this dataset. No candidate facts or previous search outcomes are included.",
+  "employers": [
+    {
+      "employer_id": "employer-001",
+      "name": "Apple",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-002",
+      "name": "Microsoft",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-003",
+      "name": "NVIDIA",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-004",
+      "name": "Alphabet (Google)",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-005",
+      "name": "Amazon",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-006",
+      "name": "Meta",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-007",
+      "name": "Tesla",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-008",
+      "name": "Netflix",
+      "category_label": "Mega-cap tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-009",
+      "name": "Broadcom",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-010",
+      "name": "AMD",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-011",
+      "name": "Intel",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-012",
+      "name": "Micron",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-013",
+      "name": "Qualcomm",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-014",
+      "name": "Texas Instruments",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-015",
+      "name": "Analog Devices",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-016",
+      "name": "Applied Materials",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-017",
+      "name": "Lam Research",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-018",
+      "name": "KLA",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-019",
+      "name": "Microchip Technology",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-020",
+      "name": "ON Semiconductor",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-021",
+      "name": "Monolithic Power Systems",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-022",
+      "name": "Teradyne",
+      "category_label": "Semiconductors",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-023",
+      "name": "Cisco",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-024",
+      "name": "Dell",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-025",
+      "name": "HP Inc.",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-026",
+      "name": "Hewlett Packard Enterprise",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-027",
+      "name": "Arista Networks",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-028",
+      "name": "Super Micro Computer",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-029",
+      "name": "Western Digital",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-030",
+      "name": "NetApp",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-031",
+      "name": "Corning",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-032",
+      "name": "Amphenol",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-033",
+      "name": "Motorola Solutions",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-034",
+      "name": "Keysight",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-035",
+      "name": "Jabil",
+      "category_label": "Hardware & networking",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-036",
+      "name": "Oracle",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-037",
+      "name": "Salesforce",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-038",
+      "name": "Adobe",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-039",
+      "name": "IBM",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-040",
+      "name": "ServiceNow",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-041",
+      "name": "Intuit",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-042",
+      "name": "Palantir",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-043",
+      "name": "Workday",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-044",
+      "name": "Autodesk",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-045",
+      "name": "Synopsys",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-046",
+      "name": "Cadence Design",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-047",
+      "name": "Datadog",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-048",
+      "name": "AppLovin",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-049",
+      "name": "PTC",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-050",
+      "name": "Tyler Technologies",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-051",
+      "name": "Fair Isaac (FICO)",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-052",
+      "name": "Gartner",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-053",
+      "name": "Akamai",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-054",
+      "name": "Cognizant",
+      "category_label": "Software & cloud",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-055",
+      "name": "CrowdStrike",
+      "category_label": "Cybersecurity",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-056",
+      "name": "Palo Alto Networks",
+      "category_label": "Cybersecurity",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-057",
+      "name": "Fortinet",
+      "category_label": "Cybersecurity",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-058",
+      "name": "Gen Digital",
+      "category_label": "Cybersecurity",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-059",
+      "name": "Uber",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-060",
+      "name": "Booking Holdings",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-061",
+      "name": "Airbnb",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-062",
+      "name": "DoorDash",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-063",
+      "name": "eBay",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-064",
+      "name": "Expedia",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-065",
+      "name": "Take-Two Interactive",
+      "category_label": "Internet & consumer tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-066",
+      "name": "Visa",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-067",
+      "name": "Mastercard",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-068",
+      "name": "PayPal",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-069",
+      "name": "Block",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-070",
+      "name": "Coinbase",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-071",
+      "name": "Robinhood",
+      "category_label": "Fintech & payments",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-072",
+      "name": "Equinix",
+      "category_label": "Data centers & telecom",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-073",
+      "name": "Digital Realty",
+      "category_label": "Data centers & telecom",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-074",
+      "name": "T-Mobile US",
+      "category_label": "Data centers & telecom",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-075",
+      "name": "Verizon",
+      "category_label": "Data centers & telecom",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-076",
+      "name": "AT&T",
+      "category_label": "Data centers & telecom",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-077",
+      "name": "GE Aerospace",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-078",
+      "name": "GE Vernova",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-079",
+      "name": "Lockheed Martin",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-080",
+      "name": "RTX (Raytheon)",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-081",
+      "name": "Northrop Grumman",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-082",
+      "name": "Boeing",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-083",
+      "name": "Honeywell",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-084",
+      "name": "Caterpillar",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-085",
+      "name": "Deere",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-086",
+      "name": "Rockwell Automation",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-087",
+      "name": "Axon",
+      "category_label": "Aerospace, defense & industrial tech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-088",
+      "name": "Eli Lilly",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-089",
+      "name": "Intuitive Surgical",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-090",
+      "name": "Thermo Fisher",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-091",
+      "name": "Vertex",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-092",
+      "name": "Regeneron",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-093",
+      "name": "Amgen",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-094",
+      "name": "Dexcom",
+      "category_label": "Health & biotech",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-095",
+      "name": "TSMC",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-096",
+      "name": "MediaTek",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-097",
+      "name": "Foxconn (Hon Hai)",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-098",
+      "name": "Samsung",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-099",
+      "name": "SK Hynix",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-100",
+      "name": "LG Electronics",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-101",
+      "name": "Hyundai",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-102",
+      "name": "Sony",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-103",
+      "name": "Nintendo",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-104",
+      "name": "Toyota",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-105",
+      "name": "Honda",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-106",
+      "name": "Keyence",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-107",
+      "name": "Tokyo Electron",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-108",
+      "name": "Advantest",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-109",
+      "name": "SoftBank Group",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-110",
+      "name": "Hitachi",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-111",
+      "name": "Tencent",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-112",
+      "name": "Alibaba",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-113",
+      "name": "Baidu",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-114",
+      "name": "PDD Holdings",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-115",
+      "name": "Xiaomi",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-116",
+      "name": "BYD",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-117",
+      "name": "CATL",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-118",
+      "name": "ASML",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-119",
+      "name": "Adyen",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-120",
+      "name": "SAP",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-121",
+      "name": "Siemens",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-122",
+      "name": "Infineon",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-123",
+      "name": "Mercedes-Benz",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-124",
+      "name": "STMicroelectronics",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-125",
+      "name": "Schneider Electric",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-126",
+      "name": "Dassault Systèmes",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-127",
+      "name": "Airbus",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-128",
+      "name": "Arm Holdings",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-129",
+      "name": "Rolls-Royce",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-130",
+      "name": "AstraZeneca",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-131",
+      "name": "Novo Nordisk",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-132",
+      "name": "Roche",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-133",
+      "name": "Nokia",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-134",
+      "name": "Ericsson",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-135",
+      "name": "Spotify",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-136",
+      "name": "Shopify",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-137",
+      "name": "Constellation Software",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-138",
+      "name": "Celestica",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-139",
+      "name": "Thomson Reuters",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-140",
+      "name": "Infosys",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-141",
+      "name": "TCS",
+      "category_label": "2. Big non-US public companies (~45)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-142",
+      "name": "OpenAI",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-143",
+      "name": "Anthropic",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-144",
+      "name": "SpaceX",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-145",
+      "name": "ByteDance",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-146",
+      "name": "Huawei",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-147",
+      "name": "Databricks",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-148",
+      "name": "Stripe",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-149",
+      "name": "Scale AI",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-150",
+      "name": "Mistral AI",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-151",
+      "name": "Cohere",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-152",
+      "name": "Perplexity",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-153",
+      "name": "Safe Superintelligence",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-154",
+      "name": "Anduril",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-155",
+      "name": "Revolut",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-156",
+      "name": "Ramp",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-157",
+      "name": "Rippling",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-158",
+      "name": "Wealthsimple",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list",
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-159",
+      "name": "Canva",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-160",
+      "name": "Shein",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-161",
+      "name": "Epic Games",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-162",
+      "name": "Valve",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-163",
+      "name": "DJI",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-164",
+      "name": "Bosch",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-165",
+      "name": "Bloomberg LP",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-166",
+      "name": "Cargill",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-167",
+      "name": "Deloitte",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-168",
+      "name": "PwC",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-169",
+      "name": "EY",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-170",
+      "name": "KPMG",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-171",
+      "name": "McKinsey",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-172",
+      "name": "BCG",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-173",
+      "name": "Bain",
+      "category_label": "3. Big private companies (~32)",
+      "source_lists": [
+        "shared-global-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-174",
+      "name": "RBC (Royal Bank of Canada)",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-175",
+      "name": "TD Bank",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-176",
+      "name": "Scotiabank",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-177",
+      "name": "BMO (Bank of Montreal)",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-178",
+      "name": "CIBC",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-179",
+      "name": "National Bank",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-180",
+      "name": "Manulife",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-181",
+      "name": "Sun Life",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-182",
+      "name": "Great-West Lifeco",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-183",
+      "name": "Intact Financial",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-184",
+      "name": "Fairfax Financial",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-185",
+      "name": "Brookfield Corporation",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-186",
+      "name": "Brookfield Asset Management",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-187",
+      "name": "CGI",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-188",
+      "name": "OpenText",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-189",
+      "name": "Descartes Systems",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-190",
+      "name": "Kinaxis",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-191",
+      "name": "Lightspeed",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-192",
+      "name": "Enbridge",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-193",
+      "name": "TC Energy",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-194",
+      "name": "Canadian Natural Resources",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-195",
+      "name": "Suncor",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-196",
+      "name": "Cenovus",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-197",
+      "name": "Imperial Oil",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-198",
+      "name": "Tourmaline Oil",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-199",
+      "name": "Cameco",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-200",
+      "name": "Fortis",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-201",
+      "name": "Hydro One",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-202",
+      "name": "Emera",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-203",
+      "name": "Agnico Eagle",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-204",
+      "name": "Barrick",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-205",
+      "name": "Wheaton Precious Metals",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-206",
+      "name": "Franco-Nevada",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-207",
+      "name": "Nutrien",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-208",
+      "name": "CN (Canadian National)",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-209",
+      "name": "CPKC",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-210",
+      "name": "Air Canada",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-211",
+      "name": "CAE",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-212",
+      "name": "Bombardier",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-213",
+      "name": "BCE (Bell)",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-214",
+      "name": "Telus",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-215",
+      "name": "Rogers",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-216",
+      "name": "Alimentation Couche-Tard",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-217",
+      "name": "Dollarama",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-218",
+      "name": "Loblaw",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-219",
+      "name": "George Weston",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-220",
+      "name": "Metro",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-221",
+      "name": "Canadian Tire",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-222",
+      "name": "Restaurant Brands International",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-223",
+      "name": "Lululemon",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-224",
+      "name": "Aritzia",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-225",
+      "name": "Canada Goose",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-226",
+      "name": "Gildan",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-227",
+      "name": "Saputo",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-228",
+      "name": "Magna International",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-229",
+      "name": "WSP Global",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-230",
+      "name": "Stantec",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-231",
+      "name": "1Password",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-232",
+      "name": "Clio",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-233",
+      "name": "McCain Foods",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-234",
+      "name": "Irving Group",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-235",
+      "name": "WestJet",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-236",
+      "name": "Desjardins",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-237",
+      "name": "Hydro-Québec",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-238",
+      "name": "Canada Post",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-239",
+      "name": "CPP Investments",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-240",
+      "name": "Ontario Teachers’ Pension Plan",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    },
+    {
+      "employer_id": "employer-241",
+      "name": "OMERS",
+      "category_label": "Canadian company table",
+      "source_lists": [
+        "shared-canadian-company-list"
+      ]
+    }
+  ]
+}

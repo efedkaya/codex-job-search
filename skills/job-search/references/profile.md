@@ -31,9 +31,32 @@ For an ongoing search, establish:
 - Start date and employment types; languages relevant to target roles.
 - Compensation preferences only if they affect screening. Keep currency, pay period, base pay, commission and total compensation distinct.
 - Preferred sources and named target employers, if any; search time zone for inclusive-day checkpoints.
+- Any stated application submission preference, especially a candidate-performed final review/Send/Submit step. Save it in the private profile and reuse it across channels; see [selected-job applications](submit-applications.md).
+- For repeated applications, the chosen working tracker, material catalogue and preferred document layout/length. Reuse existing paths and candidate-approved examples; do not make these optional workflow preferences a new intake requirement.
 - Search time available, date range, and whether setup, networking and interview preparation share that allowance.
 
 Ask unanswered essentials together in a few concise questions. Do not demand personality assessments, salary history, identification documents or demographic data. For a one-off posting, uncertainty notes may be sufficient.
+
+## Broaden a returning search
+
+Ask when an answer can change an actual search scope, eligibility decision or evidence mapping. Reuse established answers; do not repeat onboarding or make a new questionnaire a condition of continuing. Explain briefly which role family the answer could unlock, ask at most three concise questions per round, and continue independent searches. Optional omissions stay unknown; silence does not relax a hard limit.
+
+Choose from these topics rather than asking all of them:
+
+| Unknown that matters | Useful question or input | Search consequence |
+|---|---|---|
+| Preferred work beyond familiar titles | Which duties would you enjoy or accept: customer training, sales follow-up, scheduling/dispatch, order support, event coordination or hands-on operations? | Adds adjacent families based on tasks rather than senior-sounding titles |
+| Sales conditions | Are outbound calls, targets, variable pay, store sales or field visits acceptable? Is the pay floor guaranteed base? | Separates a sales opportunity from an unsuitable commission arrangement; preserve the saved base floor |
+| Physical or driving requirements | Do you hold the specific licence, drive the required transmission, and meet the stated lifting or vehicle-task requirements? | Licence, clean driving record, physical work and mechanical knowledge are separate facts; one answer does not prove the others |
+| Job-specific tool depth | What have you personally done in the named CRM, email platform, spreadsheet or design tool, and which steps can you perform unaided? | Maps transferable tools honestly and identifies a demonstrable gap rather than inventing proficiency |
+| Languages or regulated credentials | Which relevant languages and current licences/certificates can you use at work? | Tests explicit role requirements without inferring ability or eligibility from a name or background |
+| Contract or training route | Would a paid fixed-term, seasonal, trainee or apprenticeship role work, and is a mandatory training schedule feasible? | Opens routes at major employers without assuming all training is remote or waiving required student/degree status |
+| Geographic expansion | If the current area produces too few roles, would you change the cities or attendance limit? | Ask only when useful or invited; show the tradeoff and keep the existing boundary until explicitly changed |
+| Employer priorities and relationships | Which supplied companies matter most, and do you have a referral or previous application there? | Prioritizes effort and checks history; a referral is not contact permission or a promise of access |
+
+A useful input is a short example of doing a relevant task, a redacted work sample, or an existing portfolio link. No new CV, paid account, referral, home address or assessment is required. Keep proposed learning separate from demonstrated ability. Use [search angles](search-angles.md) to turn answers into bounded searches.
+
+For a continuing campaign, use the [live-requirement feedback loop](answer-bank.md#learn-from-live-requirements) to retain dated answers, refine searches and avoid asking the same compatible question again.
 
 ## Private files
 
@@ -47,14 +70,20 @@ private-job-search/
   search_state.json
   vacancies.json
   candidate-brief.json
+  application-answers.json
   run_metrics.json
+  employer-targets.json
+  company-coverage.json
+  search-plan.json
   sources/
+  research/
+  interviews/
   applications/<attempt-id>/
 ~~~
 
 Copy [profile.template.json](profile.template.json) there when structured preferences help. It is a starter, not a required exhaustive questionnaire. Preserve unknown values as null and empty arrays as unspecified, not proof of inability. Profile changes must reflect user statements or reconciled evidence. Never personalize the shipped template or examples in place.
 
-All files are optional. The compact candidate brief is a dated working summary with a profile revision and pointers to evidence, not a second independent source of truth. Refresh it when the candidate corrects a claim or changes constraints. Read detailed evidence only when a match needs it. See [efficiency.md](efficiency.md) for the vacancy ledger and run metrics. Preserve older `discoveries.json` records and consult pending/unreported entries during upgrades; a seen ID does not prove assessment or delivery.
+All files are optional. Use [answer-bank.md](answer-bank.md) for repeated application questions and [interviews.md](interviews.md) for reusable stories and practice notes; these are derived drafts, not new evidence or submission. Keep employer research separate from candidate claims. The compact candidate brief is a dated working summary with a profile revision and pointers to evidence, not a second independent source of truth. Refresh it when the candidate corrects a claim or changes constraints. Read detailed evidence only when a match needs it; an unchanged supplied workbook can reuse its extraction after file identity/hash checks. Reusing candidate evidence does not refresh a job posting's availability. See [efficiency.md](efficiency.md) for the vacancy ledger and run metrics and [tracking](tracking.md#working-tracker-and-reconciliation) for working-view ownership. Preserve older `discoveries.json` records and consult pending/unreported entries during upgrades; a seen ID does not prove assessment or delivery.
 
 ## Evidence register
 

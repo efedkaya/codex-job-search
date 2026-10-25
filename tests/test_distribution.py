@@ -67,7 +67,7 @@ class DistributionTests(unittest.TestCase):
                 self.files.pop()
 
     def test_rejects_private_names_but_accepts_templates_and_fiction(self):
-        for name in ("profile.json", "tracker.json", "search_state.json", "discoveries.json", "vacancies.json", "run_metrics.json", "candidate-brief.json", ".tracker.lock", ".vacancies.lock", ".search_state.lock", "nested/SEARCH_STATE.JSON", "nested/VACANCIES.JSON", ".env", ".env.local", "secrets.json", "credentials.txt"):
+        for name in ("application-answers.json", "PROFILE_CONTEXT.md", "employer-targets.json", "company-coverage.json", "search-plan.json", "candidate-evidence.json", "application-links.json", "profile.json", "tracker.json", "search_state.json", "discoveries.json", "vacancies.json", "run_metrics.json", "candidate-brief.json", ".tracker.lock", ".vacancies.lock", ".search_state.lock", "nested/SEARCH_STATE.JSON", "nested/VACANCIES.JSON", ".env", ".env.local", "secrets.json", "credentials.txt"):
             with self.subTest(name=name):
                 self.write(name, "{}")
                 self.files.append(name)

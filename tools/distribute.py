@@ -14,7 +14,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILL_PREFIX = "skills/job-search/"
-PRIVATE = re.compile(r"^(?:profile\.json|tracker\.json|evidence\.json|search_state\.json|discoveries\.json|vacancies\.json|run_metrics\.json|candidate-brief\.json|\.(?:search_state|vacancies|tracker)\.lock|\.env(?:\..*)?|secrets?.*|credentials?.*|id_rsa|id_ed25519)$", re.I)
+PRIVATE = re.compile(r"^(?:profile\.json|tracker\.json|evidence\.json|search_state\.json|discoveries\.json|vacancies\.json|run_metrics\.json|candidate-brief\.json|application-answers\.json|PROFILE_CONTEXT\.md|employer-targets\.json|company-coverage\.json|search-plan\.json|candidate-evidence\.json|application-links\.json|\.(?:search_state|vacancies|tracker)\.lock|\.env(?:\..*)?|secrets?.*|credentials?.*|id_rsa|id_ed25519)$", re.I)
 SENSITIVE = [
     re.compile(r"/(?:Users|home)/[^/\s\"'<>]+"),
     re.compile(r"[A-Za-z]:[\\/]+Users[\\/]+[^\\/\s\"'<>]+", re.I),

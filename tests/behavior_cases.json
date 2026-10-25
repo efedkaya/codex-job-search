@@ -481,6 +481,32 @@
         ]
       },
       "postings": []
+    },
+    {
+      "id": "shared-priority-and-partial-screening-answer",
+      "request": "Set up my own search and retain useful answers. Do not use another candidate profile or browse in this exercise.",
+      "candidate": {
+        "location": "Halifax",
+        "experience": "Two years of hospitality",
+        "education": "Diploma expected next summer",
+        "targets": [
+          "customer support",
+          "operations"
+        ]
+      },
+      "later_screening_question": "Do you have the required licence, a clean driving record, and can you lift 50 lb?",
+      "candidate_reply": "I have the licence and drive manual.",
+      "environment": {
+        "file_persistence": false,
+        "host_memory": "not available",
+        "shared_seed": "references/priority-employers.json relative to skill root"
+      },
+      "tasks": [
+        "Give the first useful onboarding reply",
+        "Separate supplied facts from unanswered requirements",
+        "Prepare a scoped reusable answer and portable context update",
+        "Explain the shared employer priority and actual persistence limit"
+      ]
     }
   ]
 }

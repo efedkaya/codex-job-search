@@ -1,12 +1,20 @@
 # Try Codex Job Search
 
-**Preview version 0.3.2 · A short guide for friends testing the package**
+**Preview version 0.4.0 · A short guide for friends testing the package**
 
 This skill helps you describe the work you want, find relevant openings and understand why a job might fit. You choose the search size and decide what to apply for.
 
-This is a local Codex package, not a marketplace plugin. The steps below use Codex with local file access. This package does not provide an automatic web or mobile installation flow. See [validation notes](VALIDATION.md) for the checks performed and environments still untested.
+This is a local skill package with an optional ChatGPT conversation starter, not a published marketplace plugin. The Codex steps below use local file access; attaching the ZIP to a chat does not install a native plugin or create account memory. See [validation notes](VALIDATION.md) for the checks performed and environments still untested.
 
-## 1. Open the package
+## Start in a ChatGPT conversation
+
+Attach the package to your own chat and paste [CHATGPT_STARTER.txt](CHATGPT_STARTER.txt). If the chat cannot read archives, extract and attach skills/job-search/SKILL.md plus references/first-run.md, references/employer-priorities.md and references/priority-employers.json from that skill folder. Supply further references only when needed. The assistant must say which files it could actually read.
+
+It will ask a few background questions, then refine the search using your answers and real job requirements. The 241 shared companies are prioritized unless you change that preference. Your constraints still govern fit. A résumé or portfolio is optional.
+
+Keep the updated PROFILE_CONTEXT.md it produces. When private file storage is unavailable, this is a copyable handoff rather than a promise of permanent memory; supply the context and workflow in a future chat when needed. The assistant may use host memory only on your explicit request with an available authorized feature. It must distinguish in-chat context, saved files and actual account memory.
+
+## 1. Open the package in Codex
 
 Extract the ZIP into a folder on your computer. Open that extracted folder as a project in Codex. Opening the ZIP itself is not enough.
 
@@ -42,6 +50,8 @@ Select `job-search` using the host's skill selector, or copy this prompt with `$
 Use $job-search to help me look for work. First help me set up a private profile outside both this package and the installed skill. Ask two or three useful questions at a time, skip information I have already provided, and let me answer in plain language.
 
 Start with the roles I want, my location and where I can work. Then gather only the missing information you need about my experience, skills, CV, portfolio, work preferences and hard job limits. My CV is optional: I can describe my background in chat. If I share portfolio work, distinguish what I did independently from assisted work or coursework.
+
+Use the bundled 241-company seed as a configurable priority, while applying my own country, location, pay, experience and skills. Save my scoped answers and keep a dated context snapshot in my private workspace; reuse compatible current answers and ask again only about material missing or changed details. Leave final application Send/Submit to me.
 
 Before searching, agree a session budget and shortlist size with me. Suggest a manageable first trial, and let me choose a different budget. Explain any missing web or browser access and what you can still do with the access available. Do not invent candidate details or submit applications or send messages for me.
 ```

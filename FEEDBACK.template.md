@@ -6,7 +6,7 @@ Copy this template and answer the parts you tried. Short answers are fine. Send 
 
 ## Setup
 
-- Package version: **0.3.2**
+- Package version: **0.4.0**
 - Operating system and version:
 - App/host and version, if known:
 - Installation method: Codex-assisted installer / folder copy / other

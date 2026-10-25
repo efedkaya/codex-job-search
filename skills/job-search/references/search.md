@@ -1,57 +1,65 @@
 # Discover, verify and shortlist
 
-## Search strategy
+## Choose scope and strategy
 
-Translate supported work into a few role families with title variants, not one query per exact title. Group close variants where the source supports it; keep a small adjacent-role exploration slice (roughly one query per four core queries, adjustable) to catch transferable work. Expand when those results show a useful path. Adapt sources to the candidate's country and profession; do not default every candidate to technology companies or entry-level roles.
+| Mode | Use | Work and completion rule |
+|---|---|---|
+| Update | Established scopes with prior successful scans | Recover pending/unreported work, then check new or materially changed findings in the inclusive date window. Reuse current assessments and verification; each source still needs observed coverage. |
+| Targeted | A bounded shortlist or short session | Infer or agree a practical budget. About 25 unique promising/uncertain vacancies reviewed and up to eight recommendations is a configurable starting point, not a quota. Stop at useful choices or the budget; disclose unscanned pages. |
+| Full audit | An explicit all-pages/complete first scan of defined sources and filters | Enumerate every reachable scoped page/batch with no age cutoff unless requested. Bound review depth separately; a full shortlist does not complete an unfinished scan. Save continuation when interrupted. |
 
-Choose Update, Targeted or Full audit from the user's scope; see [efficiency.md](efficiency.md). For an ordinary Targeted search, a starting budget is about 25 unique promising/uncertain vacancies reviewed and up to eight final recommendations, configurable to the available time. Screen established hard conflicts early and deduplicate before detailed assessment. A Full audit must still enumerate every reachable scoped page/batch, even after that review budget is filled; report unreviewed discoveries and any interrupted coverage honestly.
+Do not downgrade an explicit full scan to Targeted or make an ordinary shortlist exhaustive. Keep roles, location, sources and time constraints explicit. Separate discovery coverage, detailed assessment and reporting; none guarantees every vacancy in the market. See [browser search](browser-search.md) for completion/resume rules and [efficiency](efficiency.md) for budgets, delegation and shared verification.
 
-Start with supplied leads, official employer careers sites, employer-linked public recruiting platforms, public web search and relevant regional/specialist boards. Use LinkedIn, Indeed and Glassdoor when accessible. If any is blocked or unavailable, keep useful work moving through the accessible sources; national job boards are country-specific and similarly named services are not interchangeable. No scraper or job-board account is bundled.
+Translate supported work into a few role families with close title variants, not one query per exact title. For a fresh angle or an employer-led search, use [search angles](search-angles.md): combine transferable duties and industry context, recover the earlier queue's vacancy identities, and track each requested employer separately. Change the search route without silently relaxing the candidate's hard limits.
 
-Search results and snippets are leads. Open the actual posting before calling it verified. Prefer an employer career page or a recruiting platform linked from its official site; confirm company, role and requisition identity across sources. A plausible domain or snippet alone is insufficient. Record fallback coverage separately: it does not complete the blocked source's scope or advance its watermark.
+Start with supplied leads, official employer sites, employer-linked recruiting platforms, public web search and relevant regional/specialist boards. Use LinkedIn, Indeed and Glassdoor when accessible; include Canada's Job Bank for Canadian searches unless the user limits the sources. National boards are country-specific; similarly named services are not interchangeable. No scraper or board account is bundled. User-maintained alerts can supply leads without implying universal board access. Browser search owns fallback and official link-chain verification.
 
-Respect source access rules and host controls. Do not bypass logins, CAPTCHAs or rate limits, extract cookies/sessions or use hidden endpoints. If no accessible posting can be found, retain an unverified lead or evaluate supplied text with that limitation. User-maintained alerts can be inputs; do not promise universal board access.
+## Verify each opportunity
 
-Use the shared canonical vacancy ledger described in [efficiency.md](efficiency.md) when persistence or delegation helps. Check aliases and current verification before reopening a role, then record new facts once for reuse. Follow [browser-search.md](browser-search.md) for pagination, source coverage, named employers and repeats.
-
-## Required verification
-
-Record these facts when available, without filling gaps by inference:
+Prefer the official employer posting or a recruiting platform linked from its website; compare employer, role and requisition across sources and redirects. A plausible domain is insufficient. Check the [shared ledger](efficiency.md) before reopening a role and deduplicate using verified requisition IDs, official URLs and explicit source aliases. Title/company similarity alone is not identity. Keep separate requisitions, worksites and application attempts distinct; flag probable duplicates for reconciliation.
 
 | Fact | Verification rule |
 |---|---|
-| Posting identity | Employer, title, requisition ID if stated, direct URL; compare redirect destination |
-| Availability | Explicitly open/accepting; explicitly closed; unknown; or inaccessible. A working page alone is weaker than a live apply state. |
-| Dates | Posting date, stated deadline and checked date are different. Missing dates stay unknown. Interpret locale and time zone before treating a deadline as passed. |
-| Location | Specific worksite, stated attendance, travel and candidate-origin distance basis. Flag ambiguous offices and multiple worksite options. |
-| Remote scope | Eligible country/region and any occasional attendance, residency or time-zone condition |
-| Requirements | Separate essential from preferred; quote the exact wording for hard mismatches |
-| Compensation | Currency, period, base versus variable pay, and whether employer-stated or estimated; do not convert estimates into a hard salary promise |
-| Application route | Independently verified employer/ATS destination and requested documents; no external action implied |
+| Posting identity | Employer, title, requisition ID if stated, direct URL and redirect destination |
+| Availability | Explicitly open/accepting, explicitly closed, unknown or inaccessible. A working page is weaker evidence than a live apply state; unresolved availability belongs under investigate. |
+| Dates | Posting date, deadline and checked date are distinct. Missing dates stay unknown; interpret locale/time zone before declaring a deadline passed. |
+| Location | Worksite, attendance, travel and candidate-origin distance basis; flag ambiguous offices and multiple worksite options. |
+| Remote scope | Eligible country/region and attendance, residency or time-zone conditions |
+| Requirements | Essential versus preferred; quote exact wording for hard mismatches |
+| Compensation | Currency, pay period, base versus variable, employer-stated versus estimated; estimates are not hard salary promises. |
+| Application route | Verified employer/ATS destination and requested documents; verification grants no external-action permission. |
 
-Newly discovered does not mean newly posted. A recent repost can be an old requisition. Older listings can remain open; freshness is a prioritization signal, not an automatic expiry rule. Recheck status before tailoring/submitting. If availability cannot be established, say so visibly and put the lead under investigate.
+A map measurement needs its origin, destination and method. A city label, region boundary, straight-line distance or nearest office cannot establish a driving/time constraint. Do not substitute measures; leave distance unverified without a suitable tool/precise worksite, and name the checked office when several are possible.
 
-A map measurement must identify its origin, destination and method. A city label, region boundary, straight-line distance or nearest office cannot establish a driving-distance/time constraint. Do not silently substitute one distance measure for another. When no map tool or precise worksite is available, leave distance unverified. For multiple possible offices, report which one was checked.
+Older listings can remain open; freshness prioritizes work but does not establish expiry. Newly observed, newly posted and updated/reposted are distinct; use browser search's classification rules. Recheck the specific posting before tailoring an application and before submission, regardless of a cached check used for shortlisting.
 
-## Eligibility before fit
+When repeated appearances, a generic redirect, inconsistent duties or recruiter outreach raise a concrete concern, use the relevant checks in [company research](company-research.md). Report dated observations and their limits. Reposting or a long-open page alone does not prove a fake vacancy; a similar title under a different requisition may be a separate opening.
 
-First compare explicit hard job conditions with known candidate constraints: required authorization, license, location/attendance, employment hours and other decisive requirements. A known conflict can stop deeper work. An unknown condition remains investigate; a preference or unmentioned capability is not a rejection. Do not spend a detailed fit review on an established hard conflict unless the user asks for it.
+## Eligibility, fit and readiness
 
-Then map duties and requirements to claim IDs or source excerpts. Record **skills fit**, **eligibility** and **readiness** separately; strong transferable skills do not prove eligibility, and an eligible role may need application preparation. Distinguish:
+Screen explicit hard conditions against known candidate constraints first: authorization, licensing, location/attendance, hours and other decisive requirements. A known conflict can stop detailed review unless the user asks otherwise; an unknown condition remains investigate. Preferences and unmentioned capabilities are not rejections.
+
+Then map duties and requirements to claim IDs or source excerpts. Keep **skills fit**, **eligibility** and **readiness** separate. Strong transferable work does not prove eligibility, and an eligible role may still need preparation.
 
 - **Supported:** direct or transferable evidence sufficient for the task.
-- **Partial:** some relevant work, but an independence, scale or tool gap remains.
-- **Unknown:** capability or job condition not established.
-- **Mismatch:** established hard requirement conflicts with known candidate facts.
+- **Partial:** relevant work with an independence, scale or tool gap.
+- **Unknown:** capability or condition not established.
+- **Mismatch:** an established hard requirement conflicts with known candidate facts.
 
-Prefer apply / investigate / skip with reasons. Scores, if the user requests them, must be transparent prioritization aids with visible weights, never hiring probabilities. Do not assign precise culture or personality scores from marketing copy, a name or demographic assumptions. Treat uncertain reviews as questions to investigate.
+Judge actual tasks and essentials rather than titles alone. A two-year preference need not veto less experience; a mandatory license is different. For an explicit experience-minimum filter, use the lower bound of a required range, keep preferred years separate and preserve the exact wording; do not turn an unstated minimum into zero. Total tenure does not establish tool-specific experience. Neither assume every required phrase is negotiable nor reject every unfamiliar tool. If requested, use scores only as transparent prioritization aids with visible weights, never hiring probabilities. Do not score culture/personality from marketing copy, names or demographics; uncertain reviews become questions to investigate.
 
-Judge tasks and essential requirements rather than titles alone. A stated two-year preference need not veto a candidate with less experience; a mandatory license is a different constraint. Do not assume every “required” phrase is negotiable, or that every unfamiliar tool makes the job unsuitable.
+### Detailed requirement review
 
-## Shortlist output
+For a detailed assessment, use one requirement-to-evidence table; a shortlist can use a compact summary. First establish each significant requirement's importance from the posting, then map candidate evidence. Do not promote a requirement because the candidate meets it or discount it because they do not. Keep posting importance separate from confidence in the candidate's evidence.
 
-Show title/employer, direct source and date checked, work arrangement/location verification, pay if stated, strongest evidence, main gap, unresolved facts and recommendation. Separate verified openings from unverified leads. Include reasons for material exclusions so the candidate can correct your interpretation. Do not bury a hard conflict in a high fit score.
+| Requirement | Posting importance and basis | Candidate fit | Evidence or unresolved gap |
+|---|---|---|---|
+| Actual duty or condition | Essential / core / preferred, with stated wording, posting structure or labelled inference | Supported / partial / unknown / mismatch | Claim ID/source excerpt, relevant capability level and limits |
 
-Deduplicate using verified employer requisition IDs, official posting URLs and explicit source aliases in the [vacancy ledger](efficiency.md). Title/company similarity alone is not identity. Keep separate requisitions, worksites and application attempts distinct; flag probable duplicates for review rather than silently merging them. Application events remain in the separate [tracker](tracking.md).
+Keep every explicit hard condition visible; combine related lower-priority duties when that improves readability. A requirement's prominence or a market assumption does not create a hard exclusion. Record a known conflict only against an actual hard requirement or candidate constraint; missing résumé evidence remains unknown. For consequential partial/unknown requirements, explain what the candidate might be asked to demonstrate and the smallest useful response: clarify a fact, use adjacent evidence, practise a task, or acknowledge the gap. A proposed project or lesson is preparation, not completed experience.
 
-After the requested scan or bounded search, prioritize action over expanding the shortlist. Report sources, queries, date windows, pages/batches reached and any pending continuation; no claim of exhaustive market coverage. Use recurring explicit requirements from suitable roles to inform a later skills discussion, without automatically rewriting the candidate's learning plan.
+## Deliver the shortlist
+
+For each role, show title/employer, direct source and checked date, verified location/arrangement, stated pay, strongest candidate evidence, main gap, unresolved facts and apply/investigate/skip with reasons. Separate verified openings and unverified leads. Explain material exclusions so the candidate can correct misunderstandings; never bury hard conflicts in a high score.
+
+Include coverage from browser search and prioritize action after the requested scan/budget. A material posting or profile update should also refresh affected current gap, condition and recommendation labels; a corrected salary field alongside an obsolete pay hold is not a reconciled assessment. Preserve historical checks rather than presenting the whole queue as newly verified. Recurring explicit requirements may inform a later skills discussion without changing the candidate's learning plan. Keep application events in the separate [tracker](tracking.md).

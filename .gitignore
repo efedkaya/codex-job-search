@@ -24,3 +24,10 @@ workspaces/
 **/.vacancies.lock
 **/run_metrics.json
 **/candidate-brief.json
+**/application-answers.json
+**/PROFILE_CONTEXT.md
+**/employer-targets.json
+**/company-coverage.json
+**/search-plan.json
+**/candidate-evidence.json
+**/application-links.json

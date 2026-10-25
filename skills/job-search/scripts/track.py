@@ -210,11 +210,17 @@ def upsert_job(data, obj):
     company = " ".join(clean["employer"].casefold().split())
     req = clean.get("requisition_id")
     same_company = [j for j in data["jobs"] if " ".join(j["employer"].casefold().split()) == company]
-    matches = [j for j in same_company if j.get("requisition_id") == req] if req else []
-    if not matches:
-        matches = [j for j in same_company if j["canonical_url"] == clean["canonical_url"]
-                   and (not req or not j.get("requisition_id"))]
+    # Check both identities before choosing a row. A URL-only observation may
+    # already have application history when its requisition is learned later.
+    # Distinct explicit requisitions may legitimately share a posting URL.
+    matches = [j for j in same_company
+               if (req and j.get("requisition_id") == req)
+               or (j["canonical_url"] == clean["canonical_url"]
+                   and (not req or not j.get("requisition_id") or j.get("requisition_id") == req))]
     if len(matches) > 1:
+        if req:
+            raise TrackerError("Conflicting job identities match multiple records; reconcile the existing "
+                               "records and application history before updating. No records were changed.")
         raise TrackerError("Ambiguous posting URL; provide its specific requisition_id")
     existing = matches[0] if matches else None
     if status == "closed":
@@ -294,6 +300,9 @@ def log_time(data, obj):
     fields(obj, {"date", "human_minutes", "agent_minutes", "category", "basis", "notes"},
            ("date", "human_minutes", "category"))
     row = {"time_id": identifier("time"), "date": day(obj, "date", True), "recorded_at": now()}
+    if row["date"] > date.today().isoformat():
+        raise TrackerError("Time logs record completed work and cannot be future-dated relative to the "
+                           "computer's local date; estimates describe time already spent, not planned sessions")
     for key in ("human_minutes", "agent_minutes"):
         value = obj.get(key, 0)
         if isinstance(value, bool) or not isinstance(value, int) or value < 0:
