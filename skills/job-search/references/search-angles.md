@@ -19,7 +19,19 @@ Do not infer fit from a reassuring title, department or automated match score. A
 
 ## Adjacent titles
 
+Choose a few useful combinations of role, geography and source. Candidate evidence might lead to roles such as market research coordinator, commercial insights assistant, partnership coordinator, sales operations coordinator, product marketing coordinator, implementation coordinator or data quality specialist. For commercial analysis, look for actual duties such as segmenting customers, benchmarking competitors or preparing briefings. For business intelligence or automation roles, check the tools and level of independent ownership the employer requires.
+
 When broader search terms would help, propose a small useful set of lateral labels, realistic stretches or adjacent functions, each tied to supported candidate work and a material gap or unknown. A title suggestion is a search hypothesis, not evidence of current vacancies or a title the candidate held. Verify current market claims when making them. Reuse accepted directions and explicit exclusions; ask only when changing a consequential search preference.
+
+## Choose complementary discovery routes
+
+| Route | How to use it |
+|---|---|
+| Plain-language searches | Start with the important job duties and geography. Search remote work separately when the candidate allows it. Phrases such as “competitor research and reporting” or “coordinating supplier deliveries” can reveal roles missed by title searches. Refine the terms when results show a recurring mismatch. |
+| Major job boards | Use the candidate’s chosen sources and confirm the filters. Focus a shortlist on the agreed role families. For a requested full audit, continue the agreed search to its observed end even after finding strong matches. |
+| Employer sites and public applicant tracking systems | Follow the employer’s careers link to the regional or remote inventory. A site-restricted search can uncover individual requisitions. Verify each on its posting page, using the supported browser when a public reader only renders a shell. |
+| Industry and local sources | Trade associations, accelerator or investor portfolios, member directories and specialist boards can identify relevant employers. Verify openings on the employer’s site and label any discoveries outside the requested employer list. |
+| Project and contract work | Where accepted, search part-time, fixed-term and project work separately. Read the stated hours, contract length, worker type, base pay and variable earnings. If the candidate needs predictable hours, flag contracts that offer no weekly minimum. |
 
 ## Turn supplied company lists into a private target register
 
@@ -42,6 +54,8 @@ For each requested employer, distinguish these states:
 | Inventory partial | Some live search results were enumerated; save actual filters, IDs/pages, remaining controls and resume point |
 | Defined scope complete | Every exposed page/batch in the stated live scope reached an observed terminal state; assessment may still be pending |
 | Blocked / unavailable | Access or rendering prevented reliable observation; record the exact limitation, last successful scope and permitted fallback |
+
+Search each supplied employer by its exact name and any verified aliases. You can group queries, but review the results and keep a coverage row for each employer. If results mainly concern other companies, record the attempted query and its weak evidence. On a repeat run, reuse a still-current indexed check for the same scope and prioritize unfinished direct checks. A verified individual posting establishes evidence for that vacancy. Claim coverage of an official inventory only for the scope actually traversed.
 
 Record search coverage, detailed vacancy assessment and reporting separately. A web query with no useful hits, a JavaScript shell, generic zero-jobs placeholder or a complete shortlist cannot certify no openings. Reconcile contradictions between indexed descriptions and the live board. A fallback may find jobs but cannot complete the blocked inventory. If a country/city facet excludes the candidate's office cities, check the employer's remote route separately before concluding the location scope has no usable roles.
 

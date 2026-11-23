@@ -4,9 +4,16 @@ Find relevant opportunities, explain the fit, and keep an honest application his
 
 A reusable skill for OpenAI Codex. It adapts to the candidate's country, career stage, work preferences and available time. Personal information lives in a separate private workspace. Each person starts with their own location, pay, experience and skills. A configurable 241-company list gives discovery a large-employer priority without overriding those facts.
 
-**Status: preview release, 0.6.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
+**Public preview 0.7.0.** An independent community project, not an official OpenAI or Anthropic product. The skill runs in your local Codex setup; no hosted service, user database or background search is included.
 
 [Download the preview ZIP](https://github.com/efedkaya/codex-job-search/releases/latest) · [Get started](START_HERE.md) · [Send feedback or report a problem](https://github.com/efedkaya/codex-job-search/issues/new/choose)
+
+## New in 0.7.0
+
+- Returning candidates can resume the matching campaign with their latest preferences, previously reviewed vacancies and unfinished employer checks.
+- Searches can start with [the work a candidate has done](skills/job-search/references/search-angles.md), then use everyday search terms, relevant industry directories and employer careers sites to find related roles. Canadian searches cover Jobs.ca and Canada Job Bank as separate sources.
+- [Browser searches](skills/job-search/references/browser-search.md) record skipped pages, unavailable filters and export gaps so the next session can pick up at the last verified posting. Company-by-company reports distinguish an individual listing from a completed search of the employer’s openings.
+- [Fit assessments](skills/job-search/references/search.md) look at responsibilities and customers alongside job titles. When sources disagree on hours or another requirement, the assessment records both claims and the employer’s terms.
 
 ## New in 0.6.0
 
@@ -37,7 +44,7 @@ A reusable skill for OpenAI Codex. It adapts to the candidate's country, career 
 ## What it does
 
 - Builds a profile from evidence, keeping independent ability, assisted work and coursework distinct.
-- Searches accessible LinkedIn, Glassdoor, Indeed and Canada Job Bank pages where regionally relevant through supported host browser tools, with official employer sites, employer-linked public recruiting platforms, public web and regional/specialist boards as useful fallbacks.
+- Searches accessible LinkedIn, Glassdoor, Indeed, Jobs.ca and Canada Job Bank pages where regionally relevant through supported host browser tools, with official employer sites, employer-linked public recruiting platforms, public web and regional/specialist boards as useful fallbacks.
 - Offers Update, Targeted and Full audit modes. An explicitly requested full first scan covers all reachable scoped pages; repeat runs use each source’s last successful scan and interrupted coverage stays resumable.
 - Keeps newly posted, newly discovered and updated/reposted roles distinct, and verifies promising leads against actual postings.
 - Screens established eligibility conflicts before deeper fit work; keeps unknowns open for investigation and explains apply / investigate / skip decisions.

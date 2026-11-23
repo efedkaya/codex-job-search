@@ -10,7 +10,9 @@ Choose the mode using [search.md](search.md). A budget can limit elapsed time, s
 
 Read the profile/evidence once, then optionally write a private compact profile brief containing profile revision, hard constraints, preferences, role families, relevant claim IDs and capability levels, key unknowns and file pointers. This is a derived working aid, not a replacement for the sources. Refresh it after material corrections. Do not copy a whole CV, transcript, chat history or evidence archive into every worker prompt.
 
-Use the compact observation and progressive traversal procedure in [browser-search.md](browser-search.md); it defines when targeted reads, full snapshots and screenshots are appropriate.
+Use [browser search](browser-search.md) to choose between a targeted read, a full snapshot and a screenshot, and to work through results in order. On a refresh, start with promising vacancies awaiting verification, changes to the candidate’s criteria, approaching deadlines and sources likely to add new openings.
+
+If a targeted search repeatedly returns duplicates or out-of-scope jobs, try a different role family or source. For a full audit, keep the requested sources and filters in scope and record any pages still pending.
 
 Use compact helper reads: current-batch membership for search state, filtered/paginated ledger lists and `get` only for a selected vacancy. Save observations once and reuse them. Do not reopen an unchanged vacancy already checked by another worker without a stale cache, material change, contradictory source, unresolved decision or application recheck that needs it.
 

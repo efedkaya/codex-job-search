@@ -1,5 +1,11 @@
 # Validation and limits
 
+## 0.7.0 update — 23 November 2026
+
+All 89 offline tests passed on macOS with Python 3.12.14. The skill validator and the distribution check passed for 54 public files. The first-run guide, blank profile and context templates, starter instructions, answer-bank guidance and selected-application submission guide matched their v0.6.0 copies byte for byte. The unchanged employer seed contains 241 distinct company names.
+
+The seven revised guides cover campaign recovery, search terms and sources, employer-by-employer progress, browser checkpoints and evidence used to assess fit. These are offline release checks. Live job-board coverage depends on the search and the pages a candidate can access.
+
 ## 0.6.0 update — 25 October 2026
 
 This release selectively merges a supplied skill revision into the existing installed and sharing editions. New [writing craft](skills/job-search/references/documents.md), [message guidance](skills/job-search/references/messages.md), [mock interviews](skills/job-search/references/mock-interviews.md) and [Ontario posting observations](skills/job-search/references/ontario-postings.md) complement the retained final-document checker, source-import diagnostics, reply interpretation and shared setup.

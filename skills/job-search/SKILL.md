@@ -1,6 +1,6 @@
 ---
 name: job-search
-description: Find and assess jobs, audit or update candidate profiles, tailor materials, and apply to jobs the candidate selects; track outcomes, practice interviews and compare offers. Use for a personal job search or individual posting review. Not for employer-side recruiting or applying to unselected jobs.
+description: Find and assess jobs for an individual using their résumé, portfolio, job boards, public search and employer careers sites. Resume a saved campaign, explore new search angles, audit or update profiles, tailor materials, and apply to selected jobs. Track outcomes, practice interviews and compare offers. Excludes employer-side recruiting and applying to unselected jobs.
 ---
 
 # Job Search
@@ -17,7 +17,7 @@ Applications default to candidate-final-review-and-submit. Prepare only selected
 
 ## Start with the requested task
 
-Load only the relevant references; helper paths are relative to this skill.
+Load only the relevant references. For a returning candidate, read their designated private brief and the matching campaign before choosing filters. Use the scope the candidate requests today when it differs from older preferences. Helper paths are relative to this skill.
 
 | Request | Guidance to read |
 |---|---|
@@ -26,8 +26,8 @@ Load only the relevant references; helper paths are relative to this skill.
 | First ongoing search or explicit setup | [Personal setup](references/first-run.md), then [profile](references/profile.md): background, useful limits and private context; no document is mandatory |
 | Returning candidate or capability uncertainty | [Profile](references/profile.md): reuse their designated private profile and ask only about material unknowns or changes |
 | Audit or update LinkedIn, Indeed, Glassdoor or Job Bank profiles | [Platform profiles](references/platform-profiles.md): compare live fields with candidate evidence and verify authorized saves |
-| Discovery or shortlist | [Search](references/search.md) for strategy, verification and decisions; [browser search](references/browser-search.md) for live traversal and source fallback; [source adapters](references/source-adapters.md) when using an available job-data connector or supplied export |
-| Fresh search angles, named companies, employer rankings or a large company list | [Search angles and employer targets](references/search-angles.md); use [profile](references/profile.md#broaden-a-returning-search) for selective questions |
+| Discovery or shortlist, including Canadian boards and public web searches | [Search](references/search.md) for assessment, [browser search](references/browser-search.md) for live traversal and fallback sources, and [source adapters](references/source-adapters.md) for a job-data connector or supplied export |
+| Fresh local or remote searches, named companies, employer rankings or a large company list | [Search angles and employer targets](references/search-angles.md) for role families, complementary discovery routes and company coverage. Use [profile](references/profile.md#broaden-a-returning-search) for selective questions. |
 | Budgets, delegation or shared vacancies | [Efficiency](references/efficiency.md): choose Update, Targeted or Full audit and separate enumeration from assessment |
 | Repeat searches or checkpoints | [Search state](references/search-state.md) for helper inputs and resume semantics, alongside browser search |
 | Employer research, role concerns or professional outreach drafts | [Company research](references/company-research.md); use only the parts relevant to the request |

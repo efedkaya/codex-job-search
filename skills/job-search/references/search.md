@@ -12,7 +12,13 @@ Do not downgrade an explicit full scan to Targeted or make an ordinary shortlist
 
 Translate supported work into a few role families with close title variants, not one query per exact title. For a fresh angle or an employer-led search, use [search angles](search-angles.md): combine transferable duties and industry context, recover the earlier queue's vacancy identities, and track each requested employer separately. Change the search route without silently relaxing the candidate's hard limits.
 
-Start with supplied leads, official employer sites, employer-linked recruiting platforms, public web search and relevant regional/specialist boards. Use LinkedIn, Indeed and Glassdoor when accessible; include Canada's Job Bank for Canadian searches unless the user limits the sources. National boards are country-specific; similarly named services are not interchangeable. No scraper or board account is bundled. User-maintained alerts can supply leads without implying universal board access. Browser search owns fallback and official link-chain verification.
+Start with supplied leads, official employer sites, employer-linked recruiting platforms, public web search and relevant regional or specialist boards. Use LinkedIn, Indeed and Glassdoor when accessible. For Canadian searches, include Jobs.ca and Canada’s Job Bank unless the user limits the sources. Track each board separately and choose regional sources for other countries. The skill bundles no scraper or board account. Candidate-maintained alerts can supply leads. See [browser search](browser-search.md) for access limits, fallbacks and verification of employer links.
+
+For focused discovery, combine work type, a duty and the requested location in a plain-language search. For example, look for “part-time supplier research” in the candidate’s city. If remote work is in scope, search it separately and check where applicants may live. Try a complementary source suggested by the candidate’s experience, such as a trade association or a specialist employer’s careers page. Record which searches added distinct vacancies and which planned sources remain.
+
+Screen titles alongside duties. If the candidate seeks commercial work and excludes general customer service, check who the role serves and what the employee owns. A sales development representative who qualifies business buyers and books discovery calls may fit. A support title warrants a closer look if the posting assigns responsibility for a rollout, campaign or business process.
+
+When a user supplies an employer list, follow the [named employer workflow](browser-search.md#named-employers-and-sectors) for each one.
 
 When an existing authorized connector or supplied job-data export is useful, follow [source adapters](source-adapters.md) to preserve normalized facts and per-source diagnostics. A combined result count or a tool's successful return does not prove every requested source/filter was searched.
 
@@ -30,6 +36,8 @@ Prefer the official employer posting or a recruiting platform linked from its we
 | Requirements | Essential versus preferred; quote exact wording for hard mismatches |
 | Compensation | Currency, pay period, base versus variable, employer-stated versus estimated; estimates are not hard salary promises. |
 | Application route | Verified employer/ATS destination and requested documents; verification grants no external-action permission. |
+
+When a board card and the employer’s posting disagree about hours, pay, worksite or qualifications, record both values and their sources. Use the employer’s explicit terms where they resolve the question. If the employer’s own sources disagree on a decisive condition, show the conflict and keep the role under investigation.
 
 A map measurement needs its origin, destination and method. A city label, region boundary, straight-line distance or nearest office cannot establish a driving/time constraint. Do not substitute measures; leave distance unverified without a suitable tool/precise worksite, and name the checked office when several are possible.
 

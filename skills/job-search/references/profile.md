@@ -110,4 +110,8 @@ If the candidate corrects a capability claim, keep the correction and reconsider
 
 Keep the reusable skill unchanged when a different person uses it. Read that person's workspace explicitly. Do not merge two candidates' profiles or silently reuse the last candidate's preferences. Date-stamp changes in goals and constraints; ask only about stale facts that matter to a current decision.
 
-Use a new profile revision after a material change. Reassess affected cached matches against that revision; do not reuse an old fit assessment just because the employer's posting is unchanged.
+When a private brief covers several campaigns, use the request, workspace or saved run to select the relevant one. Keep its location and remote-work rules, employment types, role exclusions, and any pay or experience overrides together. Apply a correction within the scope the candidate gave it. Revisit a temporary exclusion at the agreed review point or when the candidate updates it, and check current eligibility before recommending an opening.
+
+Use the designated current brief for working criteria. If a referenced file moved, verify the new location and update its pointer, retaining the old path when it helps trace earlier work. Reuse dated evidence reviews and reopen only the sources that could change a decision. A candidate’s later correction takes precedence over an older résumé or public profile.
+
+Use a new profile or campaign revision after a material change. Reassess affected cached matches against that revision, even when the employer’s posting is unchanged.

@@ -4,7 +4,9 @@ Use for an ongoing search or application session. Read only the task-specific re
 
 ## Recover once, then act
 
-Read the designated private profile, current submission mode, chosen tracker and latest relevant events. Follow their saved pointers to the queue, materials, evidence and any employer-target/search-plan records. For a request for different or new jobs, recover the dated exclusion baseline and unfinished company scopes before repeating searches. Read the current workbook before changing it; a generation script or old export is not the user's latest tracker. Keep a compact working brief rather than repeatedly reading unchanged source documents. See [profile](profile.md) for evidence and revision rules.
+Start with the designated private profile and the campaign that matches the request. For discovery, follow the saved pointers to the current report and coverage, employer targets, search plan, and previously evaluated or pending vacancies. When the candidate wants different or new jobs, recover the dated exclusion baseline and unfinished employer checks before repeating searches.
+
+For application work, check the current submission mode, chosen tracker and latest relevant events. Follow their pointers to the queue, materials and supporting evidence. Read the current workbook before editing it because an old export or its generation script may omit later updates. Keep a compact working brief for the session. See [profile](profile.md) for evidence and revision rules.
 
 Resolve the current request to search, selected-job preparation, final-review handoff or outcome recording. Explicit candidate selections take priority over an old queue order. A queue number is a position in a dated snapshot, not a durable job identity. If the request leaves the next action open, surface the smallest useful choice from existing leads or unfinished selected work; do not silently expand into another exhaustive search or applications to unselected jobs.
 
